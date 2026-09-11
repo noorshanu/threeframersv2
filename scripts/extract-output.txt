@@ -1,0 +1,643 @@
+﻿
+=== section_home-logos ===
+section_home-logos">
+<div class="padding-section-medium">
+<div class="padding-global">
+<div class="container-large">
+<div class="margin-bottom margin-large">
+<div class="max-width-large">
+<div class="sticker-wrapper">
+<h2>Trusted by <span class="text-color-yellow">Industry Leaders</span>
+</h2>
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf96eb6ef7b334f3a6e29c_sketch green.svg" alt="" class="header-sticker hide-mobile-portrait"/>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="logo3_component">
+<div class="logo3_list">
+<div id="w-node-_115cb2ce-3e9c-8453-7159-93becb4dfc9e-f3083362" class="logo3_wrapper">
+<img sizes="(max-width: 690px) 100vw, 690px" srcset="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/6a451dac86c45a48f3f070a5_study_fetch-removebg-preview-p-500.png 500w, https://cdn.prod.website-files.com/6778043699a2f913f47628dd/6a451dac86c45a48f3f070a5_study_fetch-removebg-preview.png 690w" alt="" src="../cdn.prod.website-files.com/6778043699a2f913f47628dd/6a451dac86c45a48f3f070a5_study_fetch-removebg-preview.png" loading="lazy" class="logo3_logo"/>
+</div>
+<div id="w-node-d625a38a-d575-885c-2780-e684ebc06b16-f3083362" class="logo3_wrapper">
+<img loading="lazy" src="../cdn.prod.website-files.com/6778043699a2f913f47628dd/6a451e382b80f8bc9ebe63af_maple%20logo.png" alt="" class="logo3_logo"/>
+</div>
+<div class="logo3_wrapper">
+<img loading="lazy" src="../cdn.prod.website-files.com/6778043699a2f913f47628dd/6a451d327316606c592c6a07_white%20now.png" alt="" class="logo3_logo"/>
+</div>
+<div id="w-node-_115cb2ce-3e9c-8453-7159-93becb4dfca0-f3083362" class="logo3_wrapper">
+<img sizes="(max-width: 1103px) 100vw, 1103px" srcset="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf67749b59179f7b4a8ce6_stabledash-p-500.png 500w, https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf67749b59179f7b4a8ce6_stabledash.png 1103w" alt="" src="../cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf67749b59179f7b4a8ce6_stabledash.png" loading="lazy" class="logo3_logo make-small"/>
+</div>
+<div class="logo3_wrapper">
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68f8d5e330bb510146f0f15a_mimos.avif" alt="" class="logo3_logo"/>
+</div>
+<div id="w-node-_5f1ee2c6-be4d-f1bf-2550-6cc21d1d1be6-f3083362" class="logo3_wrapper">
+<img sizes="(max-width: 1123px) 100vw, 1123px" srcset="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf93e4f6cbe30b172356bc_barebone-p-500.png 500w, https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf93e4f6cbe30b172356bc_barebone.avif 1123w" alt="" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf93e4f6cbe30b172356bc_barebone.avif" loading="lazy" class="logo3_logo"/>
+</div>
+<div id="w-node-a49c006a-994b-ecf1-c704-073fc447f7f3-f3083362" class="logo3_wrapper hide">
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68f86214349ad34ebeee78c5_brand-logo-1007.avif" alt="" class="logo3_logo"/>
+</div>
+<div class="logo3_wrapper">
+<img sizes="(max-width: 2400px) 100vw, 2400px" srcset="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/6a451da3bcf100263dfe9904_emirates%20white-p-500.png 500w, https://cdn.prod.website-files.com/6778043699a2f913f47628dd/6a451da3bcf100263dfe9904_emirates%20white-p-800.png 800w, https://cdn.prod.website-files.com/6778043699a2f913f47628dd/6a451da3bcf100263dfe9904_emirates%20white-p-1080.png 1080w, https://cdn.prod.website-files.com/6778043699a2f913f47628dd/6a4
+
+=== section_home-process: NOT FOUND ===
+
+=== section_home-repurposing ===
+section_home-repurposing">
+<div class="padding-global padding-section-medium">
+<div class="container-large">
+<div class="margin-bottom margin-xxlarge">
+<div class="max-width-large">
+<div class="margin-bottom margin-small">
+<div class="sticker-wrapper">
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf96eb6ef7b334f3a6e29c_sketch green.svg" alt="" class="header-sticker"/>
+<h2 class="font-bricolage">High Level <span class="text-color-yellow">Repurposing</span>
+</h2>
+</div>
+<div class="header-sticker">
+</div>
+</div>
+<p>We build bulletproof content flywheels for personal brands to grow on multiple platforms with high volume of content</p>
+</div>
+</div>
+</div>
+<div data-w-id="5a9d7543-acea-41e6-168f-c9730b2643ea" class="flywheeel-animation-wrapper">
+<div class="social-animation">
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf7451a6e940587e2c95d7_flywheel-logo03.avif" alt="" class="social-media-sticker _1"/>
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf7451ab8eac4ad4126de4_flywheel-logo02.avif" alt="" class="social-media-sticker _3"/>
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf74510a7ff0335708e7c2_flywheel-logo01.avif" alt="" class="social-media-sticker _10"/>
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf7451b0d64adae141479f_flywheel-logo07.avif" alt="" class="social-media-sticker _2"/>
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf74514ebc6e7085da8c2a_flywheel-logo06.avif" alt="" class="social-media-sticker _8"/>
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf7451c0eabc8e2c65c3f1_flywheel-logo05.avif" alt="" class="social-media-sticker _4"/>
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf745146e749fd22638514_flywheel-logo04.avif" alt="" class="social-media-sticker _6"/>
+<div class="animation-circle_wrapper">
+<div class="circle-animation-text">Content <br/>Flywheel</div>
+<img sizes="(max-width: 2553px) 100vw, 2553px" srcset="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68ce5f7fbf72d4300ecf5d79_Group%25201000004004-p-500.png 500w, https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68ce5f7fbf72d4300ecf5d79_Group%25201000004004-p-800.png 800w, https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68ce5f7fbf72d4300ecf5d79_Group%25201000004004-p-1080.png 1080w, https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68ce5f7fbf72d4300ecf5d79_Group%201000004004.avif 2553w" alt="" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68ce5f7fbf72d4300ecf5d79_Group 1000004004.avif" loading="lazy" class="animation-circle"/>
+</div>
+</div>
+</div>
+<div class="margin-top margin-medium">
+<div class="button-group is-center">
+<a href="https://cal.com/metro-media-house/discovery" target="_blank" class="button-2 large w-button">Book a Discovery Call</a>
+</div>
+</div>
+</div>
+</section>
+<section class="section_home-viral">
+<div class="padding-global padding-section-medium overflow-hidden">
+<div class="container-large">
+<div class="margin-bottom margin-large">
+<div class="max-width-large">
+<div class="margin-bottom margin-small">
+<div class="sticker-wrapper viral-vid">
+<h2 class="font-bricolage">Your footage into world class <span class="text-color-yellow">edits that go viral</span>
+</h2>
+<img loading="lazy" src="https://cdn.prod.w
+
+=== section_home-short-form ===
+section_home-short-form">
+<div class="padding-global padding-section-medium overflow-hidden">
+<div class="container-large">
+<div class="margin-bottom margin-large">
+<div class="max-width-large">
+<div class="margin-bottom margin-small">
+<div class="sticker-wrapper">
+<h2>Content Production, <span class="text-color-yellow">Systematized</span>
+</h2>
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf96eb6ef7b334f3a6e29c_sketch green.svg" alt="" class="header-sticker"/>
+</div>
+</div>
+<p class="text-size-medium">We build the production system that lets you publish consistently at the quality level your brand demands. We own editing trends in the industry.</p>
+</div>
+</div>
+<div class="w-layout-grid portfolio_component is-horizontal">
+<div class="portfolio-item is-landscape">
+<div class="video-wrapper">
+<div class="w-embed w-iframe">
+<div style="position:relative;aspect-ratio:16/9;">
+      <iframe 
+            loading="lazy" title="Gumlet video player"
+            src="https://play.gumlet.io/embed/6a6b877c921259f4eaf050ca?background=false&amp;autoplay=true&amp;loop=true&amp;disableControls=false"
+            style="border:none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+          allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;">
+          </iframe>
+    </div>
+</div>
+</div>
+</div>
+<div class="portfolio-item is-landscape">
+<div class="video-wrapper">
+<div class="w-embed w-iframe">
+<div style="position:relative;aspect-ratio:16/9;">
+      <iframe 
+            loading="lazy" title="Gumlet video player"
+            src="https://play.gumlet.io/embed/6a6b877c88fd78cc8e3a6f0f?background=false&amp;autoplay=true&amp;loop=true&amp;disableControls=false"
+            style="border:none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+          allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;">
+          </iframe>
+    </div>
+</div>
+</div>
+</div>
+<div class="portfolio-item is-landscape">
+<div class="video-wrapper">
+<div class="w-embed w-iframe">
+<div style="position:relative;aspect-ratio:16/9;">
+      <iframe 
+            loading="lazy" title="Gumlet video player"
+            src="https://play.gumlet.io/embed/6a6b877c88fd78cc8e3a6f0b?background=false&amp;autoplay=true&amp;loop=true&amp;disableControls=false"
+            style="border:none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+          allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;">
+          </iframe>
+    </div>
+</div>
+</div>
+</div>
+<div class="portfolio-item is-landscape">
+<div class="video-wrapper">
+<div class="w-embed w-iframe">
+<div style="position:relative;aspect-ratio:16/9;">
+      <iframe 
+            loading="lazy" title="Gumlet video player"
+            src="https://play.gumlet.io/embed/6a6b877c88fd78cc8e3a6f05?background=false&amp;autoplay=true&amp;loop=true&amp;disableControls=false"
+            style="border:none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+          allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;">
+          </iframe>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section_home-repurposing">
+<div class="padding-global padding-section-medium">
+<div class="container-large">
+<div class="margin-bottom margin-xxlarge">
+<div class="max-width-large">
+<div class="margin-bottom margin-small">
+<div class="sticker
+
+=== section_home-trailers ===
+section_home-trailers">
+<div class="padding-global padding-section-medium">
+<div class="container-large">
+<div class="margin-bottom margin-large">
+<div class="max-width-large">
+<div class="margin-bottom margin-small">
+<div class="sticker-wrapper">
+<h2 class="font-bricolage">Long form that sets <span class="text-color-yellow">the standard</span>
+</h2>
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68ce5f7fbf72d4300ecf5d64_Group (34).avif" alt="" class="header-sticker"/>
+</div>
+</div>
+<p>Podcast trailers. YouTube Edits. B2B videos. Brand Films.</p>
+</div>
+</div>
+<div class="w-layout-grid portfolio_component is-trailers">
+<div class="portfolio-item is-landscape">
+<div class="video-wrapper">
+<div class="w-embed w-iframe">
+<div style="position:relative;aspect-ratio:16/9;">
+      <iframe 
+            loading="lazy" title="Gumlet video player"
+            src="https://play.gumlet.io/embed/68f85abb2bf0beb9829a7edd?background=false&amp;autoplay=true&amp;loop=true&amp;disableControls=false"
+            style="border:none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+          allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;">
+          </iframe>
+    </div>
+</div>
+</div>
+</div>
+<div class="portfolio-item is-landscape">
+<div class="video-wrapper">
+<div class="w-embed w-iframe">
+<div style="position:relative;aspect-ratio:16/9;">
+      <iframe 
+            loading="lazy" title="Gumlet video player"
+            src="https://play.gumlet.io/embed/68f85abb368a81dfff8d0f88?background=false&amp;autoplay=true&amp;loop=true&amp;disableControls=false"
+            style="border:none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+          allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;">
+          </iframe>
+    </div>
+</div>
+</div>
+</div>
+<div class="portfolio-item is-landscape">
+<div class="video-wrapper">
+<div class="w-embed w-iframe">
+<div style="position:relative;aspect-ratio:16/9;">
+      <iframe
+            loading="lazy" title="Gumlet video player"
+            src="https://play.gumlet.io/embed/698b8f4e873071aec5f3dd7d?background=false&amp;autoplay=true&amp;loop=true&amp;disable_player_controls=false"
+            style="border:none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+          referrerpolicy="origin"
+          allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;clipboard-write;">
+          </iframe>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section_layout2">
+<div class="padding-global">
+<div class="container-large">
+<div class="padding-section-large">
+<div class="layout2_component">
+<div class="w-layout-grid layout2_content">
+<div class="layout2_content-left">
+<div class="margin-bottom margin-small">
+<div class="sticker-wrapper">
+<h2>MMH <span class="text-color-yellow">Spotlight</span>
+</h2>
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf96eb6ef7b334f3a6e29c_sketch green.svg" alt="" class="header-sticker"/>
+</div>
+</div>
+<div class="margin-bottom margin-xxsmall">
+<p>We produce high grade launch videos for funded startups and media businesses.┬á</p>
+</div>
+<p>More proof of work in stealth. Reach out for info.┬á</p>
+<div class="margin-top margin-medium">
+<div class="button-group-2">
+<a href="https://cal.com/metro-media-house/discovery" target="_blank" class="button-2 w-button">Book a Discovery┬áCall</a>
+</div>
+</d
+
+=== section_layout2 ===
+section_layout2">
+<div class="padding-global">
+<div class="container-large">
+<div class="padding-section-large">
+<div class="layout2_component">
+<div class="w-layout-grid layout2_content">
+<div class="layout2_content-left">
+<div class="margin-bottom margin-small">
+<div class="sticker-wrapper">
+<h2>MMH <span class="text-color-yellow">Spotlight</span>
+</h2>
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf96eb6ef7b334f3a6e29c_sketch green.svg" alt="" class="header-sticker"/>
+</div>
+</div>
+<div class="margin-bottom margin-xxsmall">
+<p>We produce high grade launch videos for funded startups and media businesses.┬á</p>
+</div>
+<p>More proof of work in stealth. Reach out for info.┬á</p>
+<div class="margin-top margin-medium">
+<div class="button-group-2">
+<a href="https://cal.com/metro-media-house/discovery" target="_blank" class="button-2 w-button">Book a Discovery┬áCall</a>
+</div>
+</div>
+</div>
+<div class="portfolio-item is-landscape">
+<div class="video-wrapper">
+<div class="w-embed w-iframe">
+<div style="position:relative;aspect-ratio:16/9;">
+      <iframe 
+            loading="lazy" title="Gumlet video player"
+            src="https://play.gumlet.io/embed/68f85afe24f455e32d0dbc20?background=false&amp;autoplay=true&amp;loop=true&amp;disableControls=false"
+            style="border:none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+          allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;">
+          </iframe>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section_home-reviews">
+<div class="padding-section-large review-padding">
+<img loading="lazy" src="../cdn.prod.website-files.com/6778043699a2f913f47628dd/68ce5f7fbf72d4300ecf5d98_Group%20(36).png" alt="" class="sticker _4 hide-tablet"/>
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68ce5f7fbf72d4300ecf5d95_Group (35).avif" alt="" class="sticker _3 hide-tablet"/>
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68ce5f7fbf72d4300ecf5d62_Group 1000003978 (1).avif" alt="" class="sticker _2 hide-tablet"/>
+<img loading="lazy" src="../cdn.prod.website-files.com/6778043699a2f913f47628dd/68ce5f7fbf72d4300ecf5d92_Group%2015%20(5).png" alt="" class="sticker _1 hide-tablet"/>
+<div class="padding-global padding-section-medium bottom-small">
+<div class="container-large">
+<div class="w-layout-grid reviews-grid">
+<div id="w-node-_115cb2ce-3e9c-8453-7159-93becb4dfd7b-f3083362" class="review-small _1 coloured">
+<div class="testimonial_card is-small colored _1">
+<div class="text-size-xlarge-2 colored-review">The videos are fantastic. Very happy with whatΓÇÖs happening.</div>
+<div class="margin-top margin-small">
+<div class="testimonial18_client">
+<div class="testimonial18_client-image-wrapper hide">
+<img sizes="100vw" srcset="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf6a96ed5a520ff8635406_zeel%20mehta-p-500.avif 500w, https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf6a96ed5a520ff8635406_zeel%20mehta.avif 920w" alt="" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf6a96ed5a520ff8635406_zeel mehta.avif" loading="lazy" class="testimonial18_customer-image"/>
+</div>
+<div class="testimonial18_client-info">
+<div class="testimonial--name">Andrew Ross Sorkin</div>
+<div class="testimonial-text">American Journalist and Author</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="w-node-_115cb2ce-3e9c-8453-7159-93
+
+=== section_home-reviews ===
+section_home-reviews">
+<div class="spacer-xlarge">
+</div>
+<div class="padding-section-large review-padding">
+<img loading="lazy" src="../cdn.prod.website-files.com/6778043699a2f913f47628dd/68ce5f7fbf72d4300ecf5d98_Group%20(36).png" alt="" class="sticker _4 hide-tablet"/>
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68ce5f7fbf72d4300ecf5d95_Group (35).avif" alt="" class="sticker _3 hide-tablet"/>
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68ce5f7fbf72d4300ecf5d62_Group 1000003978 (1).avif" alt="" class="sticker _2 hide-tablet"/>
+<img loading="lazy" src="../cdn.prod.website-files.com/6778043699a2f913f47628dd/68ce5f7fbf72d4300ecf5d92_Group%2015%20(5).png" alt="" class="sticker _1 hide-tablet"/>
+<div class="padding-global padding-section-medium">
+<div class="container-large">
+<div class="w-layout-grid reviews-grid">
+<div id="w-node-_115cb2ce-3e9c-8453-7159-93becb4dfcc8-f3083362" class="review-small _1">
+<div class="testimonial_card is-small">
+<div class="text-size-xlarge-2">Very receptive to feedback, quick to adapt, and genuinely collaborative. <span class="pastel-yellow">Their editing always captures the tone and story weΓÇÖre trying to tell, and they deliver with care and attention to detail.</span> </div>
+<div class="margin-top margin-small">
+<div class="testimonial18_client">
+<div class="testimonial18_client-info">
+<div class="text-weight-semibold">Liah Yoo</div>
+<div class="text-color-grey-2">Founder, Krave Beauty</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="w-node-_115cb2ce-3e9c-8453-7159-93becb4dfcd7-f3083362" class="review-small _2">
+<div class="testimonial_card is-small">
+<div class="text-size-xlarge-2">Working with MMH has been a game-changer for our paid media performance. Since partnering with them, <span class="pastel-purple">we&#x27;ve seen our CPAs drop by 33%.</span> Their creative work has been outperforming what we were running before, and they&#x27;ve become an essential part of our growth stack.</div>
+<div class="margin-top margin-small">
+<div class="testimonial18_client-info">
+<div class="text-weight-semibold">Aryan Arora</div>
+<div class="text-color-grey-2">Head of Growth &amp; Advertising, Maple Inc</div>
+</div>
+</div>
+</div>
+</div>
+<div id="w-node-_115cb2ce-3e9c-8453-7159-93becb4dfce6-f3083362" class="review-small _3">
+<div class="testimonial_card is-small">
+<div class="text-size-xlarge-2">The edits are genuinely great - <span class="pastel-green">they deeply understand pacing, hooks and storytelling</span> - and they are always willing to agonise over the tiny details that makes a clip actually land.</div>
+<div class="margin-top margin-small">
+<div class="testimonial18_client">
+<div class="testimonial18_client-info">
+<div class="text-weight-semibold">Zara Jarvis</div>
+<div class="text-color-grey-2">Content Manager, Steven Bartlett</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="section_work" class="section_home-short-form">
+<div class="padding-global padding-section-medium overflow-hidden">
+<div class="container-large">
+<div class="margin-bottom margin-large">
+<div class="max-width-large">
+<div class="margin-bottom margin-small">
+<div class="sticker-wrapper">
+<h2>Content Production, <span class="text-color-yellow">Systematized</span>
+</h2>
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf96eb6ef7b334f3a6e29c_sketch green.svg" alt="" class="header-sticker"/>
+</div>
+</div>
+<p class="text-size-medium">We build the 
+
+=== section_layout254 ===
+section_layout254">
+<div class="padding-global">
+<div class="container-large">
+<div class="padding-section-large">
+<div class="layout254_component">
+<div class="w-layout-grid layout254_content-bottom">
+<div class="w-layout-grid layout254_left">
+<div class="review-small creative">
+<div class="layout254_item">
+<div class="margin-bottom margin-tiny">
+<div class="layout254_item-icon-wrapper">
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cfb186a8c48a6612217200_problem06.svg" alt="" class="icon-1x1-large-2"/>
+</div>
+</div>
+<p class="text-size-large hide-mobile-portrait">Lead Creatives</p>
+<p class="text-size-large mobile-only">Lead <br/>Creatives</p>
+</div>
+</div>
+<div class="review-small writers">
+<div class="layout254_item">
+<div class="margin-bottom margin-tiny">
+<div class="layout254_item-icon-wrapper">
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cfb186c01ec8cccf53ed57_problem02.svg" alt="" class="icon-1x1-large-2"/>
+</div>
+</div>
+<p class="text-size-large hide-mobile-portrait">Content┬áWriters</p>
+<p class="text-size-large mobile-only">Content┬á<br/>Writers</p>
+</div>
+</div>
+<div class="review-small designers">
+<div class="layout254_item">
+<div class="margin-bottom margin-tiny">
+<div class="layout254_item-icon-wrapper">
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cfb186ecf408940f25ab2f_problem03.svg" alt="" class="icon-1x1-large-2"/>
+</div>
+</div>
+<p class="text-size-large hide-mobile-portrait">Designers</p>
+<p class="text-size-large mobile-only">Designers<br/>ΓÇì</p>
+</div>
+</div>
+</div>
+<div id="w-node-_62723f60-7dc9-c000-4805-9039145ea3b2-f3083362" class="layout254_image-wrapper">
+<div class="text-align-center">
+<div class="max-width-large align-center">
+<div class="margin-bottom margin-small">
+<h2>Problems <span class="text-color-yellow">we solve</span>
+</h2>
+</div>
+<p>We become your in house team, that you don&#x27;t have to manage.┬á</p>
+</div>
+</div>
+<img src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cfb5adf982fab900a0be43_problems-sketch-3.svg" loading="lazy" alt="" class="problems-sketch br"/>
+<img src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cfb5ae0a08b5611b11b8ee_problems-sketch.svg" loading="lazy" alt="" class="problems-sketch bl"/>
+<img src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cfb5ad4ce2c544e70fdfd2_problems-sketch-2.svg" loading="lazy" alt="" class="problems-sketch tr"/>
+<img src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cfb5ad3b22d1f981d674ec_problems-sketch-1.svg" loading="lazy" alt="" class="problems-sketch tl"/>
+</div>
+<div class="w-layout-grid layout254_right">
+<div class="review-small editors">
+<div class="layout254_item">
+<div class="margin-bottom margin-tiny">
+<div class="layout254_item-icon-wrapper">
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cfb18686812e6eca393fd2_problem05.svg" alt="" class="icon-1x1-large-2"/>
+</div>
+</div>
+<p class="text-size-large">World-class Editors</p>
+</div>
+</div>
+<div class="review-small pms">
+<div class="layout254_item">
+<div class="margin-bottom margin-tiny">
+<div class="layout254_item-icon-wrapper">
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cfb18680b02ad315277468_problem04.svg" alt="" class="icon-1x1-large-2"/>
+</div>
+</div>
+<p class="text-size-large">Project Managers</p>
+</div>
+</div>
+<div class="review-small va">
+<div class="layout254_item">
+<div class="margin-bot
+
+=== section_home-problems: NOT FOUND ===
+
+=== section_home-goal ===
+section_home-goal">
+<div class="padding-global">
+<div class="container-large">
+<div class="padding-section-large">
+<div class="header49_component">
+<div class="w-layout-grid header49_content">
+<div class="header49_content-left">
+<div class="margin-bottom margin-xsmall">
+<div class="sticker-wrapper">
+<h1>The <span class="text-color-yellow">Goal</span>
+</h1>
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf96eb6ef7b334f3a6e29c_sketch green.svg" alt="" class="header-sticker"/>
+</div>
+</div>
+<p>We become your in-house production team.┬á</p>
+</div>
+<div class="header49_content-right">
+<p class="text-size-xlarge-2">Portfolio of 20+ parallel projects with industry leaders. Completely custom workflows for each.<br/>
+<br/>We integrate fully into your existing system. Producing anywhere from 10 to 100+ videos a month per project per month.<br/>
+<br/>Taking on a select few projects every quarter.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<section id="section_testimonials" class="section_testimonial18">
+<div class="padding-global">
+<div class="container-large">
+<div class="padding-section-medium">
+<div class="testimonial18_component">
+<div class="margin-bottom margin-xxlarge">
+<div class="max-width-large">
+<div class="margin-bottom margin-small">
+<div class="sticker-wrapper">
+<h2>Client <span class="text-color-yellow">Testimonials</span>
+</h2>
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf96eb6ef7b334f3a6e29c_sketch green.svg" alt="" class="header-sticker"/>
+</div>
+</div>
+<p>Hear from their experience</p>
+</div>
+</div>
+<div class="testimonial18_list">
+<div class="testimonial_card on-grid">
+<div>Metro Media House helped me rapidly build my personal brand online. Saksham is more than a supplier ΓÇö heΓÇÖs a <span class="pastel-yellow">true partner with vision, strategy, and 24/7 support</span>
+<br/>
+</div>
+<div class="margin-top margin-small">
+<div class="testimonial18_client">
+<div class="testimonial18_client-info">
+<div class="text-weight-semibold">Christian Schute</div>
+<div class="text-color-grey-2">8 fig serial entrepreneur and investor. Built ticketing software for F1<br/>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="testimonial_card on-grid">
+<div>Working with MMH has been an absolute pleasure. They produced several videos for Fluid Focus, and we were genuinely impressed by the creativity they brought to each concept. <span class="pastel-green">Their modern editing style gave our content a fresh, engaging feel that really captured our brand. </span>Professional, imaginative, and easy to collaborate with - we couldnΓÇÖt be happier with the results.<br/>
+</div>
+<div class="margin-top margin-small">
+<div class="testimonial18_client">
+<div class="testimonial18_client-info">
+<div class="text-weight-semibold">Fluid Focus</div>
+</div>
+</div>
+</div>
+</div>
+<div class="testimonial_card on-grid">
+<div>Holy F*cking shit. Excuse my language but <span class="pastel-yellow">I took a sneak peek at the edits and they are unreal.</span> So stoked about this.</div>
+<div class="margin-top margin-small">
+<div class="testimonial18_client">
+<div class="testimonial18_client-info">
+<div class="text-weight-semibold">George Munguia</div>
+<div class="text-color-grey-2">Founder, Tryharmony.ai</div>
+</div>
+</div>
+</div>
+</div>
+<div class="testimonial_card on-grid">
+<div>
+<span class="pastel-purple">By far the best video editing team we have ever worked with</span> - quick, communicative, and diligent with the highest quality videos. Will be using again and have r
+
+=== section_home-testimonials: NOT FOUND ===
+
+=== section_faq6 ===
+section_faq6">
+<div class="padding-global">
+<div class="container-large">
+<div class="padding-section-large">
+<div class="faq6_component">
+<div class="w-layout-grid faq6_content">
+<div class="faq6_content-left">
+<div class="margin-bottom margin-small">
+<div class="sticker-wrapper">
+<h2>FAQs</h2>
+<img loading="lazy" src="https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf96eb6ef7b334f3a6e29c_sketch green.svg" alt="" class="header-sticker is-faq"/>
+</div>
+</div>
+</div>
+<div class="faq6_list">
+<div class="w-layout-grid faq6_list-grid">
+<div class="faq6_accordion">
+<div data-w-id="115cb2ce-3e9c-8453-7159-93becb4dff6c" class="faq6_question">
+<div class="text-size-large text-weight-medium">Who is this for?</div>
+<div class="faq6_icon-wrapper">
+<div class="icon-embed-small w-embed">
+<svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"/>
+</svg>
+</div>
+</div>
+</div>
+<div style="width:100%;height:0px" class="faq6_answer">
+<div class="margin-bottom margin-small">
+<div class="max-width-large">
+<p class="text-color-grey-2">Companies, podcasts, and founders where content quality directly impacts the brand. We work across media, tech, SaaS, and D2C. We&#x27;re selective about who we take on, and we don&#x27;t work with everyone who applies.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="faq6_accordion">
+<div data-w-id="115cb2ce-3e9c-8453-7159-93becb4dff77" class="faq6_question">
+<div class="text-size-large text-weight-medium">What&#x27;s the minimum commitment? Can I start with a trial?</div>
+<div class="faq6_icon-wrapper">
+<div class="icon-embed-small w-embed">
+<svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"/>
+</svg>
+</div>
+</div>
+</div>
+<div style="width:100%;height:0px" class="faq6_answer">
+<div class="margin-bottom margin-small">
+<div class="max-width-large">
+<p class="text-color-grey-2">Three months. No trial months. Building a production system around your brand takes time and investment from both sides. One month isn&#x27;t enough to learn your voice, refine the workflow, or deliver results worth measuring. Most clients stay well beyond three months because the system gets sharper the longer we work together.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="faq6_accordion">
+<div data-w-id="115cb2ce-3e9c-8453-7159-93becb4dff82" class="faq6_question">
+<div class="text-size-large text-weight-medium">Is there any guarantee?</div>
+<div class="faq6_icon-wrapper">
+<div class="icon-embed-small w-embed">
+<svg width="100%" height="100%" viewBox="0 0 32 32" fill="

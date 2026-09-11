@@ -1,0 +1,64 @@
+﻿TIERS: 0
+
+TIER 1: You create. We produce.
+sticker: undefined
+desc: You already have the footage. We turn it into polished, platform-ready content y
+features: [
+  'Starting at 20 short-form videos per month',
+  '5 carousels per month',
+  'Custom editing style for your brand',
+  'Thumbnails, captions, and design assets',
+  'Platform-native formatting',
+  'Dedicated team: editors, creatives, project manager, designer',
+  'Bi-weekly check-ins',
+  'Monthly performance report'
+]
+
+TIER 2: Your entire content operation. Run by us.
+sticker: undefined
+desc: undefined
+features: [
+  'Everything in Core',
+  'Repeatable pre-production system',
+  'Content strategy',
+  'Creative direction',
+  'Scripting',
+  'Shoot direction',
+  'Multi-platform distribution'
+]
+
+TIER 3: Full-scale production for brands operating at volume.
+sticker: undefined
+desc: Your scope. Our infrastructure.For brands that need scale without sacrificing qu
+features: [
+  'Everything in OS',
+  'Upwards of 100 curated videos a month',
+  'Dedicated clipping team',
+  'Best for enterprise projects'
+]
+
+TESTIMONIAL CARDS: 8
+SCREENSHOTS: 16 [
+  'https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf9b92bc819f84de25316c_take a look.avif',
+  'https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf9b9275ef0d388ab59753_solid script.avif',
+  'https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf9b92e8c11d8273adc702_smashed it.avif'
+]
+
+LOGOS: [
+  'https://cdn.prod.website-files.com/6778043699a2f913f47628dd/6a451e382b80f8bc9ebe63af_maple%20logo.png',
+  'https://cdn.prod.website-files.com/6778043699a2f913f47628dd/6a451d327316606c592c6a07_white%20now.png',
+  'https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf67749b59179f7b4a8ce6_stabledash.png',
+  'https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68f8d5e330bb510146f0f15a_mimos.avif',
+  'https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf93e4f6cbe30b172356bc_barebone.avif',
+  'https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68f86214349ad34ebeee78c5_brand-logo-1007.avif',
+  'https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68f86214180d27cd5cc8edab_brand-logo-1006.avif',
+  'https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf9e080a08b5611b0fbd6e_brand-logo-103.svg',
+  'https://cdn.prod.website-files.com/6778043699a2f913f47628dd/6a451e382b80f8bc9ebe63af_maple%20logo.png',
+  'https://cdn.prod.website-files.com/6778043699a2f913f47628dd/6a451d327316606c592c6a07_white%20now.png',
+  'https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf67749b59179f7b4a8ce6_stabledash.png',
+  'https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68f8d5e330bb510146f0f15a_mimos.avif',
+  'https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf93e4f6cbe30b172356bc_barebone.avif',
+  'https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68f86214349ad34ebeee78c5_brand-logo-1007.avif',
+  'https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68f86214180d27cd5cc8edab_brand-logo-1006.avif',
+  'https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68cf9e080a08b5611b0fbd6e_brand-logo-103.svg'
+]

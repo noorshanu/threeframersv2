@@ -1,0 +1,230 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent: #ffb950;
+  --color-accent-green: #d7ffcc;
+  --color-accent-purple: #b3b9ff;
+  --color-grey-2: #999999;
+  --color-neutral-dark: #444444;
+  --color-surface: #141414;
+  --color-surface-elevated: #222222;
+  --font-family-heading: var(--font-bricolage-grotesque), sans-serif;
+  --font-family-body: var(--font-dm-sans), sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-black text-white antialiased;
+    font-family: var(--font-family-body);
+    font-size: 1.125rem;
+    line-height: 1.5;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-family-heading);
+    font-weight: 600;
+    letter-spacing: -0.03em;
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@layer utilities {
+  .container-large {
+    @apply mx-auto w-full max-w-7xl;
+  }
+
+  .padding-global {
+    @apply px-[5%];
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .animate-marquee {
+    animation: marquee 30s linear infinite;
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+
+  .focus\:not-sr-only:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: inherit;
+    margin: inherit;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .animate-marquee {
+    animation: none;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Flywheel — copied from Webflow (metro-media-house.webflow.shared.css) */
+.flywheeel-animation-wrapper {
+  justify-content: center;
+  align-items: flex-start;
+  height: 150vh;
+  display: flex;
+}
+
+.social-animation {
+  position: sticky;
+  top: 10vh;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.animation-circle_wrapper {
+  position: relative;
+}
+
+.circle-animation-text {
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family-heading);
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1;
+  display: flex;
+  position: absolute;
+  inset: 0%;
+}
+
+.animation-circle {
+  position: static;
+  display: block;
+  width: 100%;
+  height: auto;
+  transform-origin: 50% 50%;
+  transform-style: preserve-3d;
+}
+
+.social-media-sticker {
+  height: 4rem;
+  position: absolute;
+  inset: 0% auto auto 40%;
+}
+
+.social-media-sticker._3 {
+  z-index: 2;
+  inset: 18% 0% auto auto;
+}
+
+.social-media-sticker._8 {
+  z-index: 2;
+  inset: 52% auto auto -13%;
+}
+
+.social-media-sticker._4 {
+  z-index: 2;
+  inset: auto auto 11% 12%;
+}
+
+.social-media-sticker._6 {
+  z-index: 2;
+  inset: auto 5% 13% auto;
+}
+
+.social-media-sticker._2 {
+  z-index: 12;
+  inset: 23% auto auto -6%;
+}
+
+.social-media-sticker._1 {
+  z-index: 2;
+  inset: 45% -11% auto auto;
+}
+
+.social-media-sticker._10 {
+  z-index: 2;
+  top: 4%;
+  bottom: 0%;
+  left: 35%;
+}
+
+@media screen and (max-width: 991px) {
+  .social-animation {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .social-animation {
+    top: 20vh;
+  }
+
+  .circle-animation-text {
+    font-size: 1.5rem;
+  }
+
+  .social-media-sticker {
+    height: 2rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .social-animation {
+    width: 90%;
+  }
+
+  .social-media-sticker._8 {
+    left: -7%;
+  }
+
+  .social-media-sticker._1 {
+    right: -8%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .social-media-sticker {
+    opacity: 1 !important;
+  }
+}
