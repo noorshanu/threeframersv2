@@ -1,7 +1,7 @@
 import { CDN_BASE } from "./constants";
 
 export const heroContent = {
-  headline: "The content and distribution system for the",
+  headlineBefore: "The content and distribution system for the",
   headlineHighlight: "leaders in tech and media",
   description:
     "Content infrastructure for the companies that define their space. We build and run the machine that earns attention, from production to distribution, across every platform you need to win.",
@@ -15,7 +15,7 @@ export const stats = [
   },
   {
     icon: `${CDN_BASE}/68ce5f7fbf72d4300ecf5d4f_stats-02.svg`,
-    label: "4 years of brand building",
+    label: "4 years of brand",
   },
   {
     icon: `${CDN_BASE}/68ce5f7fbf72d4300ecf5d50_stats-01.svg`,

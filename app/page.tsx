@@ -8,7 +8,6 @@ import { Problems } from "@/components/sections/Problems";
 import { Repurposing } from "@/components/sections/Repurposing";
 import { Spotlight } from "@/components/sections/Spotlight";
 import { SpotlightReviews } from "@/components/sections/SpotlightReviews";
-import { Stats } from "@/components/sections/Stats";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { TrustedBy } from "@/components/sections/TrustedBy";
 import { ViralEdits } from "@/components/sections/ViralEdits";
@@ -18,7 +17,6 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Stats />
       <TrustedBy />
       <Work />
       <Repurposing />
