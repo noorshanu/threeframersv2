@@ -7,7 +7,7 @@ type VideoEmbedProps = {
 export function VideoEmbed({
   src,
   aspectRatio = "16/9",
-  title = "Metro Media House portfolio video",
+  title = "THR33 Frames portfolio video",
 }: VideoEmbedProps) {
   return (
     <div

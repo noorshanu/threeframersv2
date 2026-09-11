@@ -66,7 +66,7 @@ export function Navbar() {
             alt={`${SITE_NAME} logo`}
             width={56}
             height={56}
-            className="h-14 w-14"
+            className="h-14 w-14 object-contain"
             priority
             sizes="56px"
           />

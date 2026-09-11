@@ -80,7 +80,7 @@ export function Footer() {
                 alt={`${SITE_NAME} logo`}
                 width={56}
                 height={56}
-                className="h-14 w-14"
+                className="h-14 w-14 object-contain"
                 sizes="56px"
               />
               <span className="font-heading text-xl font-semibold md:text-2xl">
@@ -122,22 +122,9 @@ export function Footer() {
 
           <div className="my-10 h-px bg-neutral-dark" />
 
-          <div className="flex flex-col items-center gap-4 text-center md:flex-row md:justify-between md:text-left">
-            <p className="text-base">
-              © {new Date().getFullYear()} {SITE_NAME}. All rights reserved.
-            </p>
-            <p className="text-base">
-              Made with ❤️ by{" "}
-              <a
-                href="https://www.missingpiecestudio.co/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-accent underline"
-              >
-                Missing Piece Studio
-              </a>
-            </p>
-          </div>
+          <p className="text-center text-base md:text-left">
+            © {new Date().getFullYear()} {SITE_NAME}. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>

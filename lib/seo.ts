@@ -28,7 +28,7 @@ export function getSiteMetadata(): Metadata {
       "social media content",
       "podcast editing",
       "content agency",
-      "Metro Media House",
+      "THR33 Frames",
     ],
     authors: [{ name: SITE_NAME, url: SITE_URL }],
     creator: SITE_NAME,

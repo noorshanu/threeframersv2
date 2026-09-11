@@ -46,7 +46,7 @@ export const trustedReviews = [
   },
   {
     quote:
-      "Working with MMH has been a game-changer for our paid media performance. Since partnering with them, we've seen our CPAs drop by 33%. Their creative work has been outperforming what we were running before, and they've become an essential part of our growth stack.",
+      "Working with THR33 Frames has been a game-changer for our paid media performance. Since partnering with them, we've seen our CPAs drop by 33%. Their creative work has been outperforming what we were running before, and they've become an essential part of our growth stack.",
     highlight: "we've seen our CPAs drop by 33%.",
     highlightClass: "text-accent-purple",
     name: "Aryan Arora",
@@ -164,7 +164,7 @@ export const longFormSection = {
 } as const;
 
 export const spotlightSection = {
-  title: "MMH",
+  title: "THR33 Frames",
   titleHighlight: "Spotlight",
   description:
     "We produce high grade launch videos for funded startups and media businesses.",
@@ -294,7 +294,7 @@ export const goalSection = {
 export const testimonials = [
   {
     quote:
-      "Metro Media House helped me rapidly build my personal brand online. Saksham is more than a supplier — he's a true partner with vision, strategy, and 24/7 support",
+      "THR33 Frames helped me rapidly build my personal brand online. Saksham is more than a supplier — he's a true partner with vision, strategy, and 24/7 support",
     highlight: "true partner with vision, strategy, and 24/7 support",
     highlightClass: "text-accent",
     name: "Christian Schute",
@@ -302,7 +302,7 @@ export const testimonials = [
   },
   {
     quote:
-      "Working with MMH has been an absolute pleasure. They produced several videos for Fluid Focus, and we were genuinely impressed by the creativity they brought to each concept. Their modern editing style gave our content a fresh, engaging feel that really captured our brand. Professional, imaginative, and easy to collaborate with - we couldn't be happier with the results.",
+      "Working with THR33 Frames has been an absolute pleasure. They produced several videos for Fluid Focus, and we were genuinely impressed by the creativity they brought to each concept. Their modern editing style gave our content a fresh, engaging feel that really captured our brand. Professional, imaginative, and easy to collaborate with - we couldn't be happier with the results.",
     highlight:
       "Their modern editing style gave our content a fresh, engaging feel that really captured our brand.",
     highlightClass: "text-accent-green",
@@ -327,7 +327,7 @@ export const testimonials = [
   },
   {
     quote:
-      "Working with Metro Media House was a seamless experience. Their video quality is top-tier, and the content they produced consistently met our performance benchmarks. On the creative side, the team was always receptive to our feedback and willing to iterate to get the visual style just right. Their ability to take our vision and turn it into polished, high-caliber content was a big plus for our brand. I'd recommend them to anyone looking for a team that wants to make high quality videos.",
+      "Working with THR33 Frames was a seamless experience. Their video quality is top-tier, and the content they produced consistently met our performance benchmarks. On the creative side, the team was always receptive to our feedback and willing to iterate to get the visual style just right. Their ability to take our vision and turn it into polished, high-caliber content was a big plus for our brand. I'd recommend them to anyone looking for a team that wants to make high quality videos.",
     highlight: "",
     highlightClass: "",
     name: "Brian Tam",
@@ -335,7 +335,7 @@ export const testimonials = [
   },
   {
     quote:
-      "Metro Media House helped me grow to 50K in just 2 months with constant support, strategy, and dedication. Their consistency made all the difference",
+      "THR33 Frames helped me grow to 50K in just 2 months with constant support, strategy, and dedication. Their consistency made all the difference",
     highlight: "",
     highlightClass: "",
     name: "Zeel Mehta",
