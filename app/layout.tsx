@@ -33,7 +33,7 @@ export const metadata: Metadata = getSiteMetadata();
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#000000",
+  themeColor: "#08080c",
   colorScheme: "dark",
 };
 
@@ -56,7 +56,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <link rel="preconnect" href="https://play.gumlet.io" />
         <link rel="dns-prefetch" href="https://play.gumlet.io" />
       </head>
-      <body className="min-h-full bg-black text-white">
+      <body className="min-h-full bg-background text-white">
         <JsonLd data={organizationJsonLd} />
         <JsonLd data={faqJsonLd} />
         <SkipLink />

@@ -2,43 +2,32 @@ import { spotlightReviews } from "@/lib/content";
 
 export function SpotlightReviews() {
   return (
-    <section className="relative overflow-hidden py-16 md:py-24">
-      <div
-        aria-hidden
-        className="pointer-events-none absolute inset-0 bg-cover bg-center opacity-30"
-        style={{
-          backgroundImage:
-            "url('https://cdn.prod.website-files.com/6778043699a2f913f47628dd/68ce5f7fbf72d4300ecf5d59_Clip path group (1).avif')",
-        }}
-      />
-
-      <div className="padding-global relative">
+    <section className="bg-gradient-to-b from-background to-surface-elevated py-16 md:py-24">
+      <div className="padding-global">
         <div className="container-large">
           <div className="grid gap-6 md:grid-cols-3 md:gap-8">
-            {spotlightReviews.map((review, index) => (
-              <div
+            {spotlightReviews.map((review) => (
+              <article
                 key={review.name}
                 data-card-reveal
-                className={
-                  index === 0
-                    ? "-rotate-[10deg]"
-                    : index === 1
-                      ? "-translate-y-12"
-                      : "rotate-[10deg]"
-                }
+                className="flex h-full flex-col rounded-xl border border-border bg-surface-elevated p-6 shadow-[0_1px_0_0_rgba(255,255,255,0.04)_inset] md:p-8"
               >
-                <div
-                  className={`rounded-lg p-6 ${review.bgClass} ${review.textClass}`}
-                >
+                <span
+                  aria-hidden
+                  className={`mb-6 block h-0.5 w-12 rounded-full ${review.accentClass}`}
+                />
+                <blockquote className="flex flex-1 flex-col">
                   <p className="text-base leading-relaxed md:text-lg">
-                    {review.quote}
+                    &ldquo;{review.quote}&rdquo;
                   </p>
-                  <div className="mt-4">
-                    <p className="font-semibold">{review.name}</p>
-                    <p className="text-sm opacity-80">{review.role}</p>
-                  </div>
-                </div>
-              </div>
+                  <footer className="mt-auto pt-8">
+                    <cite className="not-italic">
+                      <p className="font-semibold text-white">{review.name}</p>
+                      <p className="mt-1 text-sm text-grey-2">{review.role}</p>
+                    </cite>
+                  </footer>
+                </blockquote>
+              </article>
             ))}
           </div>
         </div>

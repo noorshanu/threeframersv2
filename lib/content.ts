@@ -1,4 +1,5 @@
 import { CDN_BASE } from "./constants";
+import { FLYWHEEL_RING } from "./flywheel-assets";
 
 export const heroContent = {
   headlineBefore: "The content and distribution system for the",
@@ -77,47 +78,55 @@ export const workSection = {
   ],
 } as const;
 
-export const flywheelStickers = [
+/** Platforms on the flywheel orbit (clockwise from top). */
+export const flywheelPlatforms = [
   {
-    src: "/68cf7451a6e940587e2c95d7_flywheel-logo03.avif",
-    position: "1",
-    label: "Youtube Shorts",
-  },
-  {
-    src: "/68cf7451ab8eac4ad4126de4_flywheel-logo02.avif",
-    position: "3",
-    label: "Instagram reels",
-  },
-  {
-    src: "/68cf74510a7ff0335708e7c2_flywheel-logo01.avif",
-    position: "10",
+    id: "10",
     label: "LinkedIn Posts",
+    icon: "linkedin",
+    angleDeg: 0,
   },
   {
-    src: "/68cf7451b0d64adae141479f_flywheel-logo07.avif",
-    position: "2",
-    label: "Youtube Long form",
+    id: "3",
+    label: "Instagram reels",
+    icon: "instagram",
+    angleDeg: 51,
   },
   {
-    src: "/68cf74514ebc6e7085da8c2a_flywheel-logo06.avif",
-    position: "8",
-    label: "LinkedIn Carousels",
+    id: "1",
+    label: "Youtube Shorts",
+    icon: "youtube",
+    angleDeg: 103,
   },
   {
-    src: "/68cf7451c0eabc8e2c65c3f1_flywheel-logo05.avif",
-    position: "4",
-    label: "TikTok Videos",
-  },
-  {
-    src: "/68cf745146e749fd22638514_flywheel-logo04.avif",
-    position: "6",
+    id: "6",
     label: "Instagram Carousels",
+    icon: "instagram",
+    angleDeg: 122,
+  },
+  {
+    id: "4",
+    label: "TikTok Videos",
+    icon: "tiktok",
+    angleDeg: 178,
+  },
+  {
+    id: "8",
+    label: "LinkedIn Carousels",
+    icon: "linkedin",
+    angleDeg: 228,
+  },
+  {
+    id: "2",
+    label: "Youtube Long form",
+    icon: "youtube",
+    angleDeg: 292,
   },
 ] as const;
 
-/** Scroll keyframes from Webflow action list a-24 (flywheel-animation). */
-export const flywheelStickerKeyframes: Record<
-  (typeof flywheelStickers)[number]["position"],
+/** Scroll-driven reveal order (Webflow a-24 timing). */
+export const flywheelPlatformKeyframes: Record<
+  (typeof flywheelPlatforms)[number]["id"],
   { fadeStart: number; fadeEnd: number }
 > = {
   "10": { fadeStart: 0.12, fadeEnd: 0.14 },
@@ -134,8 +143,9 @@ export const repurposingSection = {
   titleHighlight: "Repurposing",
   description:
     "We build bulletproof content flywheels for personal brands to grow on multiple platforms with high volume of content",
-  ringImage: "/ring.avif",
-  stickers: flywheelStickers,
+  ringImage: FLYWHEEL_RING,
+  hubTitle: { line1: "Content", line2: "Flywheel" },
+  platforms: flywheelPlatforms,
 } as const;
 
 export const viralSection = {
@@ -178,24 +188,21 @@ export const spotlightReviews = [
     quote: "The videos are fantastic. Very happy with what's happening.",
     name: "Andrew Ross Sorkin",
     role: "American Journalist and Author",
-    bgClass: "bg-accent",
-    textClass: "text-black",
+    accentClass: "bg-accent",
   },
   {
     quote:
       "During our YC period, the launch video drove a lot of hype and customers inbound. Super responsive and proactive team.",
     name: "Rohit Sirosh",
     role: "Founder, Mimos AI",
-    bgClass: "bg-accent-purple",
-    textClass: "text-black",
+    accentClass: "bg-accent-purple",
   },
   {
     quote:
       "The edits have been amazing, the team does a great job operationally too!",
     name: "Daniel Del carmen",
     role: "Creative director, Mike Posner",
-    bgClass: "bg-accent-green",
-    textClass: "text-black",
+    accentClass: "bg-accent-green",
   },
 ] as const;
 

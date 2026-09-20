@@ -59,7 +59,7 @@ function RoleCard({
 }) {
   return (
     <div data-card-reveal className={`transform ${rotation}`}>
-      <div className="rounded-lg bg-black p-4 text-center text-accent-purple">
+      <div className="rounded-lg bg-surface-muted p-4 text-center text-accent-purple">
         <div className="mb-2 flex justify-center">
           <Image src={icon} alt="" width={80} height={80} className="h-16 w-16" />
         </div>

@@ -28,7 +28,7 @@ export function Testimonials() {
               <div
                 key={item.name}
                 data-card-reveal
-                className="mb-4 break-inside-avoid rounded-lg border border-[#373737] bg-gradient-to-b from-[#121212] to-[#050505] p-6"
+                className="mb-4 break-inside-avoid rounded-lg border border-border bg-gradient-to-b from-surface-elevated to-background p-6"
               >
                 <p className="text-base leading-relaxed">
                   <HighlightQuote
@@ -53,7 +53,7 @@ export function Testimonials() {
                 key={src}
                 type="button"
                 data-card-reveal
-                className="mb-4 w-full break-inside-avoid overflow-hidden rounded-lg border border-[#373737] bg-[#121212] text-left"
+                className="mb-4 w-full break-inside-avoid overflow-hidden rounded-lg border border-border bg-surface-elevated text-left"
                 onClick={() => setLightboxImage(src)}
               >
                 <Image
@@ -77,7 +77,7 @@ export function Testimonials() {
 
       {lightboxImage ? (
         <div
-          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 p-4"
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-background/90 p-4"
           onClick={() => setLightboxImage(null)}
           onKeyDown={(e) => e.key === "Escape" && setLightboxImage(null)}
           role="dialog"

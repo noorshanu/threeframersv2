@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <TrustedBy />
+      {/* <TrustedBy showMarquee={false} /> */}
       <Work />
       <Repurposing />
       <ViralEdits />

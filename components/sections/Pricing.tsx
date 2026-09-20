@@ -24,9 +24,9 @@ export function Pricing() {
               <div
                 key={tier.name}
                 data-card-reveal
-                className="rounded-xl bg-gradient-to-br from-[#666] to-black p-[1.5px]"
+                className="rounded-xl bg-gradient-to-br from-neutral-dark to-background p-[1.5px]"
               >
-                <div className="relative flex h-full flex-col rounded-[0.7rem] bg-gradient-to-br from-[#121212] to-[#050505] p-8">
+                <div className="relative flex h-full flex-col rounded-[0.7rem] bg-gradient-to-br from-surface-elevated to-background p-8">
                   <Image
                     src={tier.sticker}
                     alt=""

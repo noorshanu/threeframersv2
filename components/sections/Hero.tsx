@@ -3,10 +3,12 @@
 import Image from "next/image"
 import { useRef } from "react"
 
+import { DotGrid } from "@/components/animations/DotGrid"
+import { ClientLogoMarquee } from "@/components/sections/ClientLogoMarquee"
 import { Button } from "@/components/ui/Button"
 import { usePrefersReducedMotion } from "@/hooks/usePrefersReducedMotion"
 import { ASSETS, CAL_DISCOVERY_URL } from "@/lib/constants"
-import { heroContent, stats } from "@/lib/content"
+import { heroContent } from "@/lib/content"
 import { gsap, registerGsap, useGSAP } from "@/lib/gsap"
 
 export function Hero() {
@@ -39,8 +41,8 @@ export function Hero() {
         .from(".hero-copy", { y: 32, autoAlpha: 0, duration: 0.8 }, "-=0.45")
         .from(".hero-cta", { y: 24, autoAlpha: 0, duration: 0.7 }, "-=0.35")
         .from(
-          ".hero-stat",
-          { y: 24, autoAlpha: 0, duration: 0.6, stagger: 0.12 },
+          ".hero-logos",
+          { y: 24, autoAlpha: 0, duration: 0.7 },
           "-=0.2"
         )
     },
@@ -48,24 +50,30 @@ export function Hero() {
   )
 
   return (
-    <section ref={containerRef} className="relative overflow-hidden pt-[4.5rem]">
+    <section
+      ref={containerRef}
+      className="relative isolate min-h-[720px] overflow-hidden pt-[4.5rem] min-[1024px]:min-h-[780px]"
+    >
       <div
         aria-hidden
-        className="hero-blur pointer-events-none absolute right-0 top-0 z-0 hidden h-screen w-[50vw] bg-[#03a5f040] blur-[400px] min-[768px]:block min-[1280px]:w-[55vw] min-[1280px]:rounded-full min-[1280px]:bg-[#03a5f04d] min-[1280px]:blur-[450px]"
+        className="hero-blur pointer-events-none absolute right-0 top-0 z-0 hidden h-screen w-[50vw] bg-[#8b7cf633] blur-[400px] min-[768px]:block min-[1280px]:w-[55vw] min-[1280px]:rounded-full min-[1280px]:bg-[#8b7cf640] min-[1280px]:blur-[450px]"
       />
 
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-x-0 top-0 z-0"
+        className="pointer-events-none absolute inset-0 z-[1] min-h-[inherit]"
       >
-        <Image
-          src={ASSETS.heroGradient}
-          alt=""
-          width={7364}
-          height={1200}
-          priority
-          sizes="100vw"
-          className="h-auto w-full object-cover"
+        <DotGrid
+          dotSize={3.5}
+          gap={15}
+          baseColor="#6B6380"
+          activeColor="#5227FF"
+          opacity={0.2}
+          proximity={120}
+          shockRadius={250}
+          shockStrength={5}
+          resistance={750}
+          returnDuration={1.5}
         />
       </div>
 
@@ -103,27 +111,12 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="padding-global relative z-10 py-12">
-        <div className="container-large">
-          <div className="grid grid-cols-1 place-items-center gap-8 min-[768px]:grid-cols-3 min-[768px]:gap-x-[20%]">
-            {stats.map((stat) => (
-              <div key={stat.label} className="hero-stat text-center">
-                <div className="mb-2 flex justify-center">
-                  <Image
-                    src={stat.icon}
-                    alt=""
-                    width={80}
-                    height={80}
-                    className="h-14 w-14 min-[768px]:h-20 min-[768px]:w-20"
-                  />
-                </div>
-                <h2 className="font-heading text-base font-semibold tracking-[-1px] min-[768px]:text-2xl">
-                  {stat.label}
-                </h2>
-              </div>
-            ))}
-          </div>
-        </div>
+      <div className="hero-logos relative z-10 pb-10 pt-2 md:pb-14">
+        <p className="padding-global mb-2 text-center font-heading text-sm font-semibold tracking-[-0.03em] text-grey-2 min-[768px]:text-base">
+          Trusted by{" "}
+          <span className="text-accent">Industry Leaders</span>
+        </p>
+        <ClientLogoMarquee className="py-4 md:py-6" />
       </div>
     </section>
   )

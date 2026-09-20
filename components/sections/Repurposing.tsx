@@ -24,7 +24,7 @@ export function Repurposing() {
       <FlywheelClient />
 
       <div className="padding-global">
-        <div className="container-large mt-10 flex justify-center">
+        <div className="container-large relative z-10 mt-14 flex justify-center md:mt-20">
           <Button href={CAL_DISCOVERY_URL} external className="px-8 py-4 text-lg">
             Book a Discovery Call
           </Button>

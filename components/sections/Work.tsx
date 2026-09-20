@@ -6,7 +6,7 @@ export function Work() {
   return (
     <section
       id="section_work"
-      className="overflow-hidden bg-gradient-to-b from-surface to-black py-16 md:py-20"
+      className="overflow-hidden bg-gradient-to-b from-surface to-background py-16 md:py-20"
     >
       <div className="padding-global">
         <div className="container-large">

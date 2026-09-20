@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import type { ReactNode } from "react";
 
@@ -15,8 +17,8 @@ export function Button({
   external = false,
 }: ButtonProps) {
   const classes = [
-    "inline-flex items-center justify-center rounded-lg bg-accent px-6 py-3 text-base font-medium text-black no-underline transition-all duration-300",
-    "hover:px-8",
+    "inline-flex items-center justify-center rounded-lg bg-accent px-6 py-3 text-base font-medium text-accent-foreground no-underline transition-all duration-300",
+    "hover:bg-accent/90 hover:px-8",
     className,
   ]
     .filter(Boolean)

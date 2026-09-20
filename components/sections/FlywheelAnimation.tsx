@@ -4,40 +4,28 @@ import { useRef } from "react";
 
 import { FlywheelVisual } from "@/components/sections/FlywheelVisual";
 import { usePrefersReducedMotion } from "@/hooks/usePrefersReducedMotion";
-import { flywheelStickerKeyframes } from "@/lib/content";
+import { flywheelPlatformKeyframes } from "@/lib/content";
 import { gsap, registerGsap, ScrollTrigger, useGSAP } from "@/lib/gsap";
-
-const getStickerPosition = (element: HTMLElement) => {
-  const match = element.className.match(/(?:^|\s)_(\d+)(?:\s|$)/);
-  return match?.[1] ?? null;
-};
 
 const buildFlywheelTimeline = (
   wrapperEl: HTMLElement,
   prefersReducedMotion: boolean
 ) => {
-  const stageEl = wrapperEl.querySelector<HTMLElement>(".social-animation");
-  const ringEl = wrapperEl.querySelector<HTMLImageElement>(".animation-circle");
+  const stageEl = wrapperEl.querySelector<HTMLElement>(".flywheel-stage");
+  const ringEl = wrapperEl.querySelector<HTMLElement>(".flywheel-ring-spin");
 
   if (!stageEl || !ringEl) {
     return;
   }
 
-  const stickerEls = gsap.utils.toArray<HTMLImageElement>(
-    ".social-media-sticker",
-    stageEl
-  );
-
-  if (stickerEls.length === 0) {
-    return;
-  }
+  const nodeEls = gsap.utils.toArray<HTMLElement>(".flywheel-node", stageEl);
 
   if (prefersReducedMotion) {
-    gsap.set(stickerEls, { opacity: 1 });
+    gsap.set(nodeEls, { opacity: 1 });
     return;
   }
 
-  gsap.set(stickerEls, { opacity: 0, willChange: "opacity" });
+  gsap.set(nodeEls, { opacity: 0, willChange: "opacity" });
   gsap.set(ringEl, {
     rotation: 0,
     transformOrigin: "50% 50%",
@@ -66,20 +54,20 @@ const buildFlywheelTimeline = (
     0
   );
 
-  stickerEls.forEach((stickerEl) => {
-    const position = getStickerPosition(stickerEl);
+  nodeEls.forEach((nodeEl) => {
+    const position = nodeEl.dataset.flywheelPosition;
 
-    if (!position || !(position in flywheelStickerKeyframes)) {
+    if (!position || !(position in flywheelPlatformKeyframes)) {
       return;
     }
 
     const { fadeStart, fadeEnd } =
-      flywheelStickerKeyframes[
-        position as keyof typeof flywheelStickerKeyframes
+      flywheelPlatformKeyframes[
+        position as keyof typeof flywheelPlatformKeyframes
       ];
 
     timeline.fromTo(
-      stickerEl,
+      nodeEl,
       { opacity: 0 },
       {
         opacity: 1,
@@ -111,9 +99,7 @@ export function FlywheelAnimation() {
         ScrollTrigger.refresh();
       };
 
-      const images = wrapperEl.querySelectorAll("img");
-
-      images.forEach((image) => {
+      wrapperEl.querySelectorAll("img").forEach((image) => {
         if (image.complete) {
           return;
         }

@@ -3,7 +3,7 @@ import { goalSection } from "@/lib/content";
 
 export function Goal() {
   return (
-    <section className="bg-gradient-to-b from-surface to-black py-16 md:py-24">
+    <section className="bg-gradient-to-b from-surface-muted to-background py-16 md:py-24">
       <div className="padding-global">
         <div className="container-large">
           <div className="grid gap-10 lg:grid-cols-2 lg:gap-20">
