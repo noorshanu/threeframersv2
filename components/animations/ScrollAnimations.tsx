@@ -16,7 +16,7 @@ export function ScrollAnimations() {
 
       const cardEls = gsap.utils.toArray<HTMLElement>("[data-card-reveal]");
       const sectionEls = gsap.utils.toArray<HTMLElement>(
-        "main > section:not(:first-child):not(#flywheel-section)"
+        "main > section:not(:first-child):not(#flywheel-section):not(#section_solutions)"
       );
 
       if (cardEls.length > 0) {
@@ -50,7 +50,7 @@ export function ScrollAnimations() {
 
       if (sectionEls.length > 0) {
         ScrollTrigger.batch(
-          "main > section:not(:first-child):not(#flywheel-section)",
+          "main > section:not(:first-child):not(#flywheel-section):not(#section_solutions)",
           {
             onEnter: (elements) => {
               gsap.fromTo(

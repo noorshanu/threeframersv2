@@ -265,28 +265,28 @@ export const problemsSection = {
   roles: [
     {
       label: "Lead Creatives",
+      blurb: "Direction, hooks, and narrative that actually convert.",
       icon: `${CDN_BASE}/68cfb186a8c48a6612217200_problem06.svg`,
-      rotation: "rotate-[6deg]",
     },
     {
       label: "Content Writers",
+      blurb: "Scripts and captions tuned to your voice.",
       icon: `${CDN_BASE}/68cfb186c01ec8cccf53ed57_problem02.svg`,
-      rotation: "-translate-x-4 rotate-[3deg]",
     },
     {
       label: "Designers",
+      blurb: "Motion graphics and covers that stop the scroll.",
       icon: `${CDN_BASE}/68cfb186ecf408940f25ab2f_problem03.svg`,
-      rotation: "-rotate-[6deg]",
     },
     {
       label: "World-class Editors",
+      blurb: "Cuts, pacing, and polish at production speed.",
       icon: `${CDN_BASE}/68cfb18686812e6eca393fd2_problem05.svg`,
-      rotation: "-rotate-[9deg]",
     },
     {
       label: "Project Managers",
+      blurb: "Deadlines hit. Feedback handled. Zero chaos.",
       icon: `${CDN_BASE}/68cfb18680b02ad315277468_problem04.svg`,
-      rotation: "translate-x-4 -rotate-y-2",
     },
   ],
 } as const;
