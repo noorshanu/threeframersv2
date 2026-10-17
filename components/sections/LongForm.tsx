@@ -11,7 +11,6 @@ export function LongForm() {
             <SectionHeader
               title={longFormSection.title}
               highlight={longFormSection.titleHighlight}
-              sticker={longFormSection.sticker}
             />
             <p className="mt-4 text-lg text-grey-2">
               {longFormSection.description}

@@ -13,10 +13,8 @@ export const CDN_BASE =
 export const ASSETS = {
   logo: "/logo.jpg",
   heroGradient: `${CDN_BASE}/68ce5f7fbf72d4300ecf5d59_Clip path group (1).avif`,
-  heroSticker: `${CDN_BASE}/68cf96eb31e835d7e29dc66b_sketch purple.svg`,
   favicon: `${CDN_BASE}/67b4cfb60ec983738f3e3d9c_favicon.png`,
   webclip: `${CDN_BASE}/69fcd5a6893466cc76fa8abf_MMH Webclip.avif`,
-  stickerGreen: `${CDN_BASE}/68cf96eb6ef7b334f3a6e29c_sketch green.svg`,
   reviewsBg: `${CDN_BASE}/68ce5f7fbf72d4300ecf5d59_Clip path group (1).avif`,
 } as const;
 

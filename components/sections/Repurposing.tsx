@@ -17,6 +17,11 @@ export function Repurposing() {
             <p className="mt-4 text-lg text-grey-2">
               {repurposingSection.description}
             </p>
+            {repurposingSection.closing ? (
+              <p className="mt-4 text-lg italic text-foreground">
+                {repurposingSection.closing}
+              </p>
+            ) : null}
           </div>
         </div>
       </div>

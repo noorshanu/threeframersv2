@@ -12,7 +12,9 @@ export function ViralEdits() {
               title={viralSection.title}
               highlight={viralSection.titleHighlight}
             />
-            <p className="mt-4 text-lg text-grey-2">{viralSection.description}</p>
+            <p className="mt-4 whitespace-pre-line text-lg text-grey-2">
+              {viralSection.description}
+            </p>
           </div>
 
           <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">

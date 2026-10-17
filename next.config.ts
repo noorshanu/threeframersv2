@@ -14,7 +14,7 @@ const nextConfig: NextConfig = {
     minimumCacheTTL: 60 * 60 * 24 * 30,
   },
   async headers() {
-    return [
+    const securityHeaders = [
       {
         source: "/(.*)",
         headers: [
@@ -36,6 +36,25 @@ const nextConfig: NextConfig = {
           },
         ],
       },
+    ];
+
+    if (process.env.NODE_ENV !== "production") {
+      return [
+        ...securityHeaders,
+        {
+          source: "/:path*",
+          headers: [
+            {
+              key: "Cache-Control",
+              value: "no-store, must-revalidate",
+            },
+          ],
+        },
+      ];
+    }
+
+    return [
+      ...securityHeaders,
       {
         source: "/_next/static/(.*)",
         headers: [

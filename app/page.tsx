@@ -2,6 +2,7 @@ import { ScrollAnimations } from "@/components/animations/ScrollAnimations";
 import { FAQ } from "@/components/sections/FAQ";
 import { Goal } from "@/components/sections/Goal";
 import { Hero } from "@/components/sections/Hero";
+import { HeroContent } from "@/components/sections/HeroContent";
 import { LongForm } from "@/components/sections/LongForm";
 import { Pricing } from "@/components/sections/Pricing";
 import { Problems } from "@/components/sections/Problems";
@@ -16,7 +17,9 @@ import { Work } from "@/components/sections/Work";
 export default function Home() {
   return (
     <>
-      <Hero />
+      <Hero>
+        <HeroContent />
+      </Hero>
       {/* <TrustedBy showMarquee={false} /> */}
       <Work />
       <Repurposing />

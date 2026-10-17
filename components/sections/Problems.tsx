@@ -83,7 +83,6 @@ export function Problems() {
               <SectionHeader
                 title={problemsSection.title}
                 highlight={problemsSection.titleHighlight}
-                sticker={false}
               />
             </div>
             <p className="max-w-sm text-base leading-relaxed text-grey-2 md:text-right md:text-lg">

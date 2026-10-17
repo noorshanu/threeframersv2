@@ -12,11 +12,16 @@ export function Goal() {
                 title={goalSection.title}
                 highlight={goalSection.titleHighlight}
               />
-              <p className="mt-4 text-lg">{goalSection.description}</p>
+              <p className="mt-4 text-lg italic">{goalSection.description}</p>
             </div>
 
             <div className="text-lg leading-relaxed text-grey-2 whitespace-pre-line">
               {goalSection.body}
+              {goalSection.closing ? (
+                <p className="mt-6 italic text-foreground">
+                  {goalSection.closing}
+                </p>
+              ) : null}
             </div>
           </div>
         </div>

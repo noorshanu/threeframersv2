@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import { CheckIcon } from "@/components/ui/CheckIcon";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { pricingSection } from "@/lib/content";
@@ -26,19 +24,26 @@ export function Pricing() {
                 data-card-reveal
                 className="rounded-xl bg-gradient-to-br from-neutral-dark to-background p-[1.5px]"
               >
-                <div className="relative flex h-full flex-col rounded-[0.7rem] bg-gradient-to-br from-surface-elevated to-background p-8">
-                  <Image
-                    src={tier.sticker}
-                    alt=""
-                    width={64}
-                    height={64}
-                    className="absolute -top-6 left-6 h-16 w-16"
-                  />
-
-                  <div className="mt-6">
-                    <h3 className="font-heading text-xl font-semibold">
+                <div className="flex h-full flex-col rounded-[0.7rem] bg-gradient-to-br from-surface-elevated to-background p-8">
+                  <div>
+                    {"badge" in tier && tier.badge ? (
+                      <span className="mb-3 inline-block rounded-md bg-accent-green/15 px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-accent-green">
+                        {tier.badge}
+                      </span>
+                    ) : null}
+                    {"eyebrow" in tier && tier.eyebrow ? (
+                      <p className="text-xs font-semibold uppercase tracking-wider text-grey-2">
+                        {tier.eyebrow}
+                      </p>
+                    ) : null}
+                    <h3
+                      className={`font-heading text-xl font-semibold ${"eyebrow" in tier && tier.eyebrow ? "mt-2" : ""}`}
+                    >
                       {tier.name}
                     </h3>
+                    <p className="mt-2 text-base font-medium leading-snug text-foreground">
+                      {tier.tagline}
+                    </p>
                     <p className="mt-3 text-sm text-grey-2">{tier.description}</p>
                   </div>
 

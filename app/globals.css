@@ -146,22 +146,13 @@
   overflow: visible;
 }
 
-.flywheel-hub__title {
+.flywheel-hub__logo {
   z-index: 3;
   grid-area: 1 / 1;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 0.1em;
-  margin: 0;
-  text-align: center;
-  font-family: var(--font-family-heading);
-  font-size: clamp(1.15rem, 3.6vw, 1.65rem);
-  font-weight: 600;
-  line-height: 1.05;
-  letter-spacing: -0.03em;
-  color: #fff;
-  text-shadow: 0 2px 20px rgb(0 0 0 / 0.85);
+  justify-content: center;
+  filter: drop-shadow(0 2px 20px rgb(0 0 0 / 0.85));
 }
 
 .flywheel-ring-spin {

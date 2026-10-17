@@ -66,10 +66,11 @@ export const trustedReviews = [
 ] as const;
 
 export const workSection = {
-  title: "Content Production,",
-  titleHighlight: "Systematized",
+  title: "Chaos In.",
+  titleHighlight: "Cinema Out.",
   description:
-    "We build the production system that lets you publish consistently at the quality level your brand demands. We own editing trends in the industry.",
+    "Great content doesn't happen by accident. We turn raw footage, rough ideas, and ambitious concepts into a production machine built for consistency, crafted for attention, and designed to keep your brand one step ahead.",
+  closing: "Less chaos. Better cuts. Bigger impact.",
   videos: [
     "https://play.gumlet.io/embed/6a6b877c921259f4eaf050ca?background=false&autoplay=true&loop=true&disableControls=false",
     "https://play.gumlet.io/embed/6a6b877c88fd78cc8e3a6f0f?background=false&autoplay=true&loop=true&disableControls=false",
@@ -139,12 +140,13 @@ export const flywheelPlatformKeyframes: Record<
 };
 
 export const repurposingSection = {
-  title: "High Level",
-  titleHighlight: "Repurposing",
+  title: "Content that goes",
+  titleHighlight: "everywhere.",
   description:
-    "We build bulletproof content flywheels for personal brands to grow on multiple platforms with high volume of content",
+    "We turn one piece of content into a high-volume, multi-platform engine for personal brands—built to expand your reach without multiplying your workload.",
+  closing:
+    "Content Repurposing. Platform Distribution. Personal Brand Growth.",
   ringImage: FLYWHEEL_RING,
-  hubTitle: { line1: "Content", line2: "Flywheel" },
   platforms: flywheelPlatforms,
 } as const;
 
@@ -152,7 +154,7 @@ export const viralSection = {
   title: "Your footage into world class",
   titleHighlight: "edits that go viral",
   description:
-    "The unparalleled production standard behind the biggest names in media. Podcasts. Shows. Long form. We got it all.",
+    "The unparalleled production standard behind the biggest names in media. Podcasts. Shows. Long form. We got it all. Built for the big picture.\n\nHigh-retention YouTube videos, cinematic brand films, podcast edits and B2B content built to make an impact.",
   videos: [
     "https://play.gumlet.io/embed/69f733741dfaccdc957ab32f?background=false&autoplay=true&loop=true&disable_player_controls=false",
     "https://play.gumlet.io/embed/698b8d45873071aec5f38ae9?background=false&autoplay=true&loop=true&disable_player_controls=false",
@@ -165,7 +167,6 @@ export const longFormSection = {
   title: "Long form that sets",
   titleHighlight: "the standard",
   description: "Podcast trailers. YouTube Edits. B2B videos. Brand Films.",
-  sticker: `${CDN_BASE}/68ce5f7fbf72d4300ecf5d64_Group (34).avif`,
   videos: [
     "https://play.gumlet.io/embed/68f85abb2bf0beb9829a7edd?background=false&autoplay=true&loop=true&disableControls=false",
     "https://play.gumlet.io/embed/68f85abb368a81dfff8d0f88?background=false&autoplay=true&loop=true&disableControls=false",
@@ -213,46 +214,52 @@ export const pricingSection = {
     "Every engagement starts with a 3-month commitment. We take on 2-3 new clients per quarter.",
   tiers: [
     {
-      name: "You create. We produce.",
+      name: "The Content Studio",
+      tagline: "You bring the idea. We make people stop scrolling.",
       description:
-        "You already have the footage. We turn it into polished, platform-ready content your brand can publish with confidence.",
-      sticker: `${CDN_BASE}/69fcd200766f1a1c5687a8fb_Process-Level-2.svg`,
+        "Professional video editing, UGC-style creatives, and platform-ready content built around your brand and audience.",
       features: [
-        "Starting at 20 short-form videos per month",
-        "5 carousels per month",
-        "Custom editing style for your brand",
-        "Thumbnails, captions, and design assets",
-        "Platform-native formatting",
-        "Dedicated team: editors, creatives, project manager, designer",
-        "Bi-weekly check-ins",
-        "Monthly performance report",
+        "Short-form video editing & repurposing",
+        "UGC videos and creator-style ads",
+        "YouTube long-form editing & thumbnails",
+        "Motion graphics, captions & visual effects",
+        "Custom editing styles for your brand",
+        "Content assets for ads and social media",
+        "Best for brands, creators & agencies",
       ],
     },
     {
-      name: "Your entire content operation. Run by us.",
+      badge: "MOST VERSATILE",
+      eyebrow: "02 / CONTENT OPERATIONS",
+      name: "The Content Engine",
+      tagline: "Not just videos. A system that keeps your brand moving.",
       description:
-        "You show up. We handle everything else. Strategy, scripting, creative direction, editing, and distribution. A full content department embedded in your workflow.",
-      sticker: `${CDN_BASE}/69fcd200766f1a1c5687a8fc_Process-Level-3.svg`,
+        "We manage the process from ideas and scripts to production, editing, and publishing—so your content doesn't depend on last-minute effort.",
       features: [
-        "Everything in Core",
-        "Repeatable pre-production system",
-        "Content strategy",
-        "Creative direction",
-        "Scripting",
-        "Shoot direction",
-        "Multi-platform distribution",
+        "Content strategy & creative direction",
+        "UGC and performance-ad creatives",
+        "Scripting, hooks & storyboarding",
+        "YouTube automation & channel operations",
+        "Multi-platform content repurposing",
+        "Production calendars & quality control",
+        "Scalable editing and creative teams",
+        "Best for growing brands & busy creators",
       ],
     },
     {
-      name: "Full-scale production for brands operating at volume.",
+      eyebrow: "03 / AI SYSTEMS",
+      name: "The Growth Systems Lab",
+      tagline: "Less manual work. Faster responses. More opportunities captured.",
       description:
-        "Your scope. Our infrastructure. For brands that need scale without sacrificing quality. We build a dedicated production system around your requirements.",
-      sticker: `${CDN_BASE}/69fcd200766f1a1c5687a8fd_Process-Level-4.svg`,
+        "We build AI-powered workflows that help businesses handle enquiries, follow up with leads, and automate repetitive operations.",
       features: [
-        "Everything in OS",
-        "Upwards of 100 curated videos a month",
-        "Dedicated clipping team",
-        "Best for enterprise projects",
+        "AI voice agents that can call leads",
+        "Automated appointment booking & reminders",
+        "AI reception and enquiry handling for clinics",
+        "Lead qualification & follow-up workflows",
+        "CRM integrations and workflow automation",
+        "AI-assisted content production systems",
+        "Best for clinics, service businesses & growing teams",
       ],
     },
   ],
@@ -293,9 +300,10 @@ export const problemsSection = {
 
 export const goalSection = {
   title: "The",
-  titleHighlight: "Goal",
-  description: "We become your in-house production team.",
-  body: "Portfolio of 20+ parallel projects with industry leaders. Completely custom workflows for each.\n\nWe integrate fully into your existing system. Producing anywhere from 10 to 100+ videos a month per project per month.\n\nTaking on a select few projects every quarter.",
+  titleHighlight: "Vision",
+  description: "We become the team behind your next big thing.",
+  body: "From the first frame to the final export, we build a production engine around your brand. Your workflow, your standards, your creative vision — backed by a team built to deliver at scale.\n\nEvery project gets a system of its own. Every piece of content has a purpose. And every frame moves your brand forward.\n\nWe work as an extension of your team, handling the creative heavy lifting across 10 to 100+ videos per month, depending on your needs.",
+  closing: "A few partnerships. Built to go far.",
 } as const;
 
 export const testimonials = [
@@ -386,18 +394,43 @@ export const testimonialScreenshots = [
 
 export const faqs = [
   {
-    question: "Who is this for?",
+    question: "Who do we work with?",
     answer:
-      "Companies, podcasts, and founders where content quality directly impacts the brand. We work across media, tech, SaaS, and D2C. We're selective about who we take on, and we don't work with everyone who applies.",
+      "Brands, founders, creators, and businesses that take content seriously. From YouTube channels and podcasts to D2C brands and healthcare businesses, we partner with teams ready to turn creative into a competitive advantage. If you're looking for a long-term production partner, we're listening.",
   },
   {
-    question: "What's the minimum commitment? Can I start with a trial?",
+    question: "Can we start with a trial?",
     answer:
-      "Three months. No trial months. Building a production system around your brand takes time and investment from both sides. One month isn't enough to learn your voice, refine the workflow, or deliver results worth measuring. Most clients stay well beyond three months because the system gets sharper the longer we work together.",
+      "We prefer building something that lasts. Our best work comes from understanding your brand, refining the workflow, and getting sharper with every delivery. We can discuss a scoped pilot where it makes sense, with ongoing partnerships designed around consistency and scale.",
   },
   {
-    question: "Is there any guarantee?",
+    question: "What makes THR33 Frames different?",
     answer:
-      "If you already have organic traction, we can amplify and predict results in a few weeks. If you're building from scratch, it takes longer to find the formula. That said, the majority of our clients see real results within the first two months. We can't guarantee the algorithm. We can guarantee the work that feeds it. Our quality of output with volume is unparalleled.",
+      "We're not here to just push pixels on a timeline. We combine creative thinking, production systems, and platform-specific execution to help brands produce better content, more consistently. From the first concept to the final export, every detail has a purpose.",
+  },
+  {
+    question: "How quickly can we expect results?",
+    answer:
+      "Good creative takes testing. We focus on strong hooks, thoughtful storytelling, consistent output, and continuous improvement. Timelines depend on your starting point, content strategy, and distribution. We build the process to improve performance over time, not promise overnight wins.",
+  },
+  {
+    question: "Can you handle high-volume production?",
+    answer:
+      "That's where our systems come in. Whether you need a handful of polished videos or a recurring pipeline of short-form edits, long-form content, and UGC creatives, we build a workflow around your volume, quality standards, and deadlines.",
+  },
+  {
+    question: "Do you offer AI automation beyond content?",
+    answer:
+      "Yes. We also build AI-powered workflows for businesses, including voice-calling systems for clinics, lead follow-ups, appointment workflows, and other automations tailored to your operations. Every solution starts with the actual problem you're trying to solve.",
+  },
+  {
+    question: "What if we need more than editing?",
+    answer:
+      "That's exactly why we offer more than editing. We can support creative direction, scripting, UGC production, YouTube operations, content repurposing, and distribution workflows. You can engage us for a specific production need or build a broader partnership as you grow.",
+  },
+  {
+    question: "How do we get started?",
+    answer:
+      "Tell us what you're building, what isn't working, and where you want to go. We'll understand your goals, identify the right services, and map out a production or automation plan that fits your business.",
   },
 ] as const;

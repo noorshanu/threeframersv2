@@ -16,6 +16,11 @@ export function Work() {
               highlight={workSection.titleHighlight}
             />
             <p className="mt-4 text-lg text-grey-2">{workSection.description}</p>
+            {workSection.closing ? (
+              <p className="mt-4 text-lg italic text-foreground">
+                {workSection.closing}
+              </p>
+            ) : null}
           </div>
 
           <div className="grid gap-4 md:grid-cols-2">

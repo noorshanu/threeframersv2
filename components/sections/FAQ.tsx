@@ -9,7 +9,7 @@ export function FAQ() {
         <div className="container-large">
           <div className="grid gap-10 lg:grid-cols-[0.75fr_1fr] lg:gap-20">
             <div>
-              <SectionHeader title="FAQs" sticker={false} />
+              <SectionHeader title="FAQs" />
             </div>
             <Accordion items={faqs} />
           </div>

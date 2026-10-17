@@ -1,12 +1,11 @@
 "use client";
 
+import Image from "next/image";
 import type { CSSProperties, RefObject } from "react";
 
 import { FlywheelPlatformIcon } from "@/components/sections/FlywheelPlatformIcon";
-import {
-  flywheelPlatforms,
-  repurposingSection,
-} from "@/lib/content";
+import { ASSETS, SITE_NAME } from "@/lib/constants";
+import { flywheelPlatforms, repurposingSection } from "@/lib/content";
 import { FLYWHEEL_RING } from "@/lib/flywheel-assets";
 
 type FlywheelVisualProps = {
@@ -15,10 +14,6 @@ type FlywheelVisualProps = {
 
 export function FlywheelVisual({ wrapperRef }: FlywheelVisualProps) {
   const ringImage = repurposingSection.ringImage ?? FLYWHEEL_RING;
-  const hubTitle = repurposingSection.hubTitle ?? {
-    line1: "Content",
-    line2: "Flywheel",
-  };
   const platforms = repurposingSection.platforms ?? flywheelPlatforms;
 
   return (
@@ -46,10 +41,16 @@ export function FlywheelVisual({ wrapperRef }: FlywheelVisualProps) {
         ))}
 
         <div className="flywheel-hub">
-          <h3 className="flywheel-hub__title">
-            <span>{hubTitle.line1}</span>
-            <span>{hubTitle.line2}</span>
-          </h3>
+          <div className="flywheel-hub__logo">
+            <Image
+              src={ASSETS.logo}
+              alt={`${SITE_NAME} logo`}
+              width={80}
+              height={80}
+              className="h-[clamp(3rem,11vw,5rem)] w-[clamp(3rem,11vw,5rem)] object-contain"
+              sizes="80px"
+            />
+          </div>
           <div className="flywheel-ring-spin" aria-hidden>
             <img
               src={ringImage}
