@@ -3,6 +3,9 @@ import Link from "next/link";
 
 import {
   ASSETS,
+  CONTACT_EMAIL,
+  CONTACT_PHONE,
+  CONTACT_PHONE_DISPLAY,
   FOOTER_LINKS,
   SITE_NAME,
   SOCIAL_LINKS,
@@ -122,9 +125,25 @@ export function Footer() {
 
           <div className="my-10 h-px bg-neutral-dark" />
 
-          <p className="text-center text-base md:text-left">
-            © {new Date().getFullYear()} {SITE_NAME}. All rights reserved.
-          </p>
+          <div className="flex flex-col gap-4 text-center md:flex-row md:items-center md:justify-between md:text-left">
+            <p className="text-base">
+              © {new Date().getFullYear()} {SITE_NAME}. All rights reserved.
+            </p>
+            <div className="flex flex-col gap-2 text-base md:items-end">
+              <a
+                href={`mailto:${CONTACT_EMAIL}`}
+                className="text-grey-2 no-underline transition-colors hover:text-accent"
+              >
+                {CONTACT_EMAIL}
+              </a>
+              <a
+                href={`tel:${CONTACT_PHONE}`}
+                className="text-grey-2 no-underline transition-colors hover:text-accent"
+              >
+                {CONTACT_PHONE_DISPLAY}
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

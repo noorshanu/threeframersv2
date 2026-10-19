@@ -7,6 +7,10 @@ export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.metromediahouse.co";
 
 export const CAL_DISCOVERY_URL = "https://cal.com/metro-media-house/discovery";
+
+export const CONTACT_EMAIL = "founder@thr33framess.com";
+export const CONTACT_PHONE = "+919669223715";
+export const CONTACT_PHONE_DISPLAY = "+91 96692 23715";
 export const CDN_BASE =
   "https://cdn.prod.website-files.com/6778043699a2f913f47628dd";
 
@@ -35,18 +39,6 @@ export const FOOTER_LINKS = [
 export const SOCIAL_LINKS = [
   {
     label: "Instagram",
-    href: "https://www.instagram.com/metromedia.house/",
-  },
-  {
-    label: "X",
-    href: "https://x.com/metromediahouse",
-  },
-  {
-    label: "LinkedIn",
-    href: "https://www.linkedin.com/company/metro-media-house/",
-  },
-  {
-    label: "YouTube",
-    href: "https://www.youtube.com/@metromediahouse",
+    href: "https://www.instagram.com/thr33frames/",
   },
 ] as const;

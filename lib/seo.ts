@@ -3,6 +3,8 @@ import type { Metadata } from "next";
 import {
   ASSETS,
   CAL_DISCOVERY_URL,
+  CONTACT_EMAIL,
+  CONTACT_PHONE,
   SITE_DESCRIPTION,
   SITE_NAME,
   SITE_URL,
@@ -92,6 +94,8 @@ export function getOrganizationJsonLd() {
         contactPoint: {
           "@type": "ContactPoint",
           contactType: "sales",
+          email: CONTACT_EMAIL,
+          telephone: CONTACT_PHONE,
           url: CAL_DISCOVERY_URL,
         },
       },
