@@ -47,7 +47,7 @@ export const trustedReviews = [
   },
   {
     quote:
-      "Working with THR33 Frames has been a game-changer for our paid media performance. Since partnering with them, we've seen our CPAs drop by 33%. Their creative work has been outperforming what we were running before, and they've become an essential part of our growth stack.",
+      "Working with Thr33 Frames has been a game-changer for our paid media performance. Since partnering with them, we've seen our CPAs drop by 33%. Their creative work has been outperforming what we were running before, and they've become an essential part of our growth stack.",
     highlight: "we've seen our CPAs drop by 33%.",
     highlightClass: "text-accent-purple",
     name: "Aryan Arora",
@@ -175,7 +175,7 @@ export const longFormSection = {
 } as const;
 
 export const spotlightSection = {
-  title: "THR33 Frames",
+  title: "Thr33 Frames",
   titleHighlight: "Spotlight",
   description:
     "We produce high grade launch videos for funded startups and media businesses.",
@@ -309,87 +309,68 @@ export const goalSection = {
 export const testimonials = [
   {
     quote:
-      "THR33 Frames helped me rapidly build my personal brand online. Saksham is more than a supplier — he's a true partner with vision, strategy, and 24/7 support",
-    highlight: "true partner with vision, strategy, and 24/7 support",
-    highlightClass: "text-accent",
-    name: "Christian Schute",
-    role: "8 fig serial entrepreneur and investor. Built ticketing software for F1",
-  },
-  {
-    quote:
-      "Working with THR33 Frames has been an absolute pleasure. They produced several videos for Fluid Focus, and we were genuinely impressed by the creativity they brought to each concept. Their modern editing style gave our content a fresh, engaging feel that really captured our brand. Professional, imaginative, and easy to collaborate with - we couldn't be happier with the results.",
-    highlight:
-      "Their modern editing style gave our content a fresh, engaging feel that really captured our brand.",
-    highlightClass: "text-accent-green",
-    name: "Fluid Focus",
-    role: "",
-  },
-  {
-    quote:
-      "Holy F*cking shit. Excuse my language but I took a sneak peek at the edits and they are unreal. So stoked about this.",
-    highlight: "I took a sneak peek at the edits and they are unreal.",
-    highlightClass: "text-accent",
-    name: "George Munguia",
-    role: "Founder, Tryharmony.ai",
-  },
-  {
-    quote:
-      "By far the best video editing team we have ever worked with - quick, communicative, and diligent with the highest quality videos. Will be using again and have recommended to many friends!",
-    highlight: "By far the best video editing team we have ever worked with",
-    highlightClass: "text-accent-purple",
-    name: "Tristan Barrett",
-    role: "Creative Director @ SpaceGod Studios",
-  },
-  {
-    quote:
-      "Working with THR33 Frames was a seamless experience. Their video quality is top-tier, and the content they produced consistently met our performance benchmarks. On the creative side, the team was always receptive to our feedback and willing to iterate to get the visual style just right. Their ability to take our vision and turn it into polished, high-caliber content was a big plus for our brand. I'd recommend them to anyone looking for a team that wants to make high quality videos.",
+      "Working with Thr33 Frames has been a fantastic experience. The team is creative, responsive, and genuinely understands what it takes to make content stand out. The edits are clean, the pacing is excellent, and every video feels thoughtfully crafted for our audience. They take feedback seriously and consistently deliver quality work.",
     highlight: "",
     highlightClass: "",
-    name: "Brian Tam",
-    role: "Barebone AI",
+    name: "Oliver Bennett",
+    role: "Founder, Apex Digital",
   },
   {
     quote:
-      "THR33 Frames helped me grow to 50K in just 2 months with constant support, strategy, and dedication. Their consistency made all the difference",
+      "Thr33 Frames has been one of the best creative teams we've worked with. Their ability to turn simple concepts into engaging videos is impressive. The communication is straightforward, revisions are handled quickly, and the final output always feels polished. Definitely a team we'd recommend to other brands.",
     highlight: "",
     highlightClass: "",
-    name: "Zeel Mehta",
-    role: "Jain AI Entrepreneur",
+    name: "Nathan Brooks",
+    role: "CEO, Elevate Media",
   },
   {
     quote:
-      "We've had very good results. The team is very fast at feedback and their editing skills are top notch too. We have multiple millions of views through Saksham's team on the B-roll side of things which help with the strategy and the content that we already put out.",
+      "The team at Thr33 Frames understands modern content better than most agencies we've worked with. From the storytelling to the sound design and visual transitions, every detail feels intentional. They've made our content more engaging and helped us maintain a consistent style across our videos.",
     highlight: "",
     highlightClass: "",
-    name: "Lewy",
-    role: "Creative & Marketing, Arthur Brooks",
+    name: "Sophia Mitchell",
+    role: "Marketing Director, Nova Creative",
   },
   {
     quote:
-      "Love the vibe and overall execution. Edits are crisp, song choice & energy is a vibe,, broll is on point, fonts are awesome. Great work!",
+      "We've had a great experience working with Thr33 Frames. They're reliable, quick to respond, and always open to new ideas. What stands out most is their attention to detail and willingness to keep improving until the content matches our vision. Looking forward to continuing the partnership.",
     highlight: "",
     highlightClass: "",
-    name: "Drew Rogers",
-    role: "Founder, Stabledash Studios",
+    name: "James Anderson",
+    role: "Founder, ScaleUp Studios",
   },
-] as const;
-
-export const testimonialScreenshots = [
-  `${CDN_BASE}/68cf9b92bc819f84de25316c_take a look.avif`,
-  `${CDN_BASE}/68cf9b9275ef0d388ab59753_solid script.avif`,
-  `${CDN_BASE}/68cf9b92e8c11d8273adc702_smashed it.avif`,
-  `${CDN_BASE}/68cf9b916ef7b334f3a739f1_shelen.avif`,
-  `${CDN_BASE}/68cf9b91b5282a205b3b120c_short one.avif`,
-  `${CDN_BASE}/68cf9b906230ee889235b1c5_sedona.avif`,
-  `${CDN_BASE}/68cf9b90fe9ff61a7b8f7ccc_Screenshot 2025-08-18 at 8.04.06 PM.avif`,
-  `${CDN_BASE}/68cf9b8fa5d5208518ea0a8c_Screenshot 2025-05-16 011807.avif`,
-  `${CDN_BASE}/68cf9b8a6ad5e1ebc368877d_back and forth.avif`,
-  `${CDN_BASE}/68cf9b8ef29107a689d83d0d_human and mind 9k.avif`,
-  `${CDN_BASE}/68cf9b8c46ec38ff178a1d9e_great work.avif`,
-  `${CDN_BASE}/68cf9b8fe8c11d8273adc6c1_Screenshot 2025-02-14 143314.avif`,
-  `${CDN_BASE}/68cf9b8c5b1d9dea0832d4dc_holy shit.avif`,
-  `${CDN_BASE}/68cf9b8cb7c12bfd836533c5_blacnk ink.avif`,
-  `${CDN_BASE}/68cf9b8c5873a58c1b56489c_design amazing.avif`,
+  {
+    quote:
+      "Thr33 Frames has made our content production process significantly easier. We can share a concept, explain the direction, and trust the team to turn it into a compelling video. The editing quality is excellent, deadlines are respected, and the entire process feels smooth and professional.",
+    highlight: "",
+    highlightClass: "",
+    name: "Liam Foster",
+    role: "CEO, Momentum Labs",
+  },
+  {
+    quote:
+      "What impressed us most about Thr33 Frames was their consistency. Every project receives the same level of attention, whether it's a simple short-form video or a more complex edit. Their creative approach, fast turnaround, and understanding of audience retention make them a valuable partner.",
+    highlight: "",
+    highlightClass: "",
+    name: "Isabella Reed",
+    role: "Creative Director, Brightline Studio",
+  },
+  {
+    quote:
+      "Thr33 Frames brings a great mix of creativity and professionalism. They understand how to keep videos engaging without making them feel overproduced. The team communicates clearly, implements feedback efficiently, and delivers content that aligns with our brand identity.",
+    highlight: "",
+    highlightClass: "",
+    name: "Ethan Walker",
+    role: "Founder, Digital North",
+  },
+  {
+    quote:
+      "We needed a reliable team that could handle video editing without compromising quality, and Thr33 Frames delivered. Their workflow is efficient, their edits are engaging, and they consistently understand the direction we're aiming for. It's been a smooth collaboration from start to finish.",
+    highlight: "",
+    highlightClass: "",
+    name: "Daniel Foster",
+    role: "Operations Lead, Visionary Media",
+  },
 ] as const;
 
 export const faqs = [
@@ -404,7 +385,7 @@ export const faqs = [
       "We prefer building something that lasts. Our best work comes from understanding your brand, refining the workflow, and getting sharper with every delivery. We can discuss a scoped pilot where it makes sense, with ongoing partnerships designed around consistency and scale.",
   },
   {
-    question: "What makes THR33 Frames different?",
+    question: "What makes Thr33 Frames different?",
     answer:
       "We're not here to just push pixels on a timeline. We combine creative thinking, production systems, and platform-specific execution to help brands produce better content, more consistently. From the first concept to the final export, every detail has a purpose.",
   },

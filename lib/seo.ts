@@ -30,7 +30,7 @@ export function getSiteMetadata(): Metadata {
       "social media content",
       "podcast editing",
       "content agency",
-      "THR33 Frames",
+      "Thr33 Frames",
     ],
     authors: [{ name: SITE_NAME, url: SITE_URL }],
     creator: SITE_NAME,
@@ -49,9 +49,9 @@ export function getSiteMetadata(): Metadata {
       images: [
         {
           url: ASSETS.webclip,
-          width: 1200,
-          height: 630,
-          alt: `${SITE_NAME} preview image`,
+          width: 512,
+          height: 512,
+          alt: `${SITE_NAME} logo`,
         },
       ],
     },
@@ -89,7 +89,7 @@ export function getOrganizationJsonLd() {
         "@id": `${SITE_URL}/#organization`,
         name: SITE_NAME,
         url: SITE_URL,
-        logo: ASSETS.logo,
+        logo: new URL(ASSETS.logo, SITE_URL).href,
         sameAs,
         contactPoint: {
           "@type": "ContactPoint",

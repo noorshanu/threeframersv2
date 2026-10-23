@@ -1,12 +1,12 @@
-export const SITE_NAME = "THR33 Frames";
+export const SITE_NAME = "Thr33 Frames";
 
 export const SITE_DESCRIPTION =
   "Scaling brands for niche authorities with world class organic content. Currently working with personal brands, funded startups, Crypto/trading ventures and much more.";
 
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.metromediahouse.co";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.thr33frames.com";
 
-export const CAL_DISCOVERY_URL = "https://cal.com/metro-media-house/discovery";
+export const CAL_DISCOVERY_URL = "https://cal.com/harsh-mehta-wspfeh/30min";
 
 export const CONTACT_EMAIL = "founder@thr33framess.com";
 export const CONTACT_PHONE = "+919669223715";
@@ -16,9 +16,9 @@ export const CDN_BASE =
 
 export const ASSETS = {
   logo: "/logo.jpg",
+  favicon: "/logo.jpg",
+  webclip: "/logo.jpg",
   heroGradient: `${CDN_BASE}/68ce5f7fbf72d4300ecf5d59_Clip path group (1).avif`,
-  favicon: `${CDN_BASE}/67b4cfb60ec983738f3e3d9c_favicon.png`,
-  webclip: `${CDN_BASE}/69fcd5a6893466cc76fa8abf_MMH Webclip.avif`,
   reviewsBg: `${CDN_BASE}/68ce5f7fbf72d4300ecf5d59_Clip path group (1).avif`,
 } as const;
 
