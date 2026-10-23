@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-import { ASSETS, SITE_DESCRIPTION, SITE_NAME } from "@/lib/constants";
+import { SITE_DESCRIPTION, SITE_NAME } from "@/lib/constants";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
@@ -13,9 +13,14 @@ export default function manifest(): MetadataRoute.Manifest {
     theme_color: "#08080c",
     icons: [
       {
-        src: ASSETS.favicon,
+        src: "/icon.png",
         sizes: "512x512",
-        type: "image/jpeg",
+        type: "image/png",
+      },
+      {
+        src: "/favicon.ico",
+        sizes: "48x48",
+        type: "image/x-icon",
       },
     ],
   };

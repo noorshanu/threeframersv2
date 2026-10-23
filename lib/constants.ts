@@ -8,7 +8,7 @@ export const SITE_URL =
 
 export const CAL_DISCOVERY_URL = "https://cal.com/harsh-mehta-wspfeh/30min";
 
-export const CONTACT_EMAIL = "founder@thr33framess.com";
+export const CONTACT_EMAIL = "connectwith@thr33framess.com";
 export const CONTACT_PHONE = "+919669223715";
 export const CONTACT_PHONE_DISPLAY = "+91 96692 23715";
 export const CDN_BASE =

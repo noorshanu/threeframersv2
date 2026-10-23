@@ -72,8 +72,8 @@ export function getSiteMetadata(): Metadata {
       },
     },
     icons: {
-      icon: ASSETS.favicon,
-      apple: ASSETS.webclip,
+      icon: "/favicon.ico",
+      apple: "/apple-icon.png",
     },
   };
 }
