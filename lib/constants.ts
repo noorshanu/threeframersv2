@@ -16,8 +16,8 @@ export const CDN_BASE =
 
 export const ASSETS = {
   logo: "/logo.jpg",
-  favicon: "/logo.jpg",
-  webclip: "/logo.jpg",
+  favicon: "/fav.png",
+  webclip: "/fav.png",
   heroGradient: `${CDN_BASE}/68ce5f7fbf72d4300ecf5d59_Clip path group (1).avif`,
   reviewsBg: `${CDN_BASE}/68ce5f7fbf72d4300ecf5d59_Clip path group (1).avif`,
 } as const;

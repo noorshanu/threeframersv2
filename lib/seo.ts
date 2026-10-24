@@ -72,7 +72,10 @@ export function getSiteMetadata(): Metadata {
       },
     },
     icons: {
-      icon: "/favicon.ico",
+      icon: [
+        { url: "/favicon.ico", sizes: "any" },
+        { url: "/fav.png", type: "image/png" },
+      ],
       apple: "/apple-icon.png",
     },
   };
