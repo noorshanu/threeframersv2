@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import { CheckIcon } from "@/components/ui/CheckIcon";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { pricingSection } from "@/lib/content";
@@ -25,20 +27,23 @@ export function Pricing() {
                 className="rounded-xl bg-gradient-to-br from-neutral-dark to-background p-[1.5px]"
               >
                 <div className="flex h-full flex-col rounded-[0.7rem] bg-gradient-to-br from-surface-elevated to-background p-8">
+                  <div className="mb-4 flex justify-center">
+                    <Image
+                      src={tier.frameImage}
+                      alt=""
+                      width={160}
+                      height={100}
+                      className="h-14 w-auto object-contain md:h-16"
+                    />
+                  </div>
+
                   <div>
                     {"badge" in tier && tier.badge ? (
                       <span className="mb-3 inline-block rounded-md bg-accent-green/15 px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-accent-green">
                         {tier.badge}
                       </span>
                     ) : null}
-                    {"eyebrow" in tier && tier.eyebrow ? (
-                      <p className="text-xs font-semibold uppercase tracking-wider text-grey-2">
-                        {tier.eyebrow}
-                      </p>
-                    ) : null}
-                    <h3
-                      className={`font-heading text-xl font-semibold ${"eyebrow" in tier && tier.eyebrow ? "mt-2" : ""}`}
-                    >
+                    <h3 className="font-heading text-xl font-semibold">
                       {tier.name}
                     </h3>
                     <p className="mt-2 text-base font-medium leading-snug text-foreground">

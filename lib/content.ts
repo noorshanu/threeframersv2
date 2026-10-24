@@ -214,6 +214,7 @@ export const pricingSection = {
     "Every engagement starts with a 3-month commitment. We take on 2-3 new clients per quarter.",
   tiers: [
     {
+      frameImage: "/frame1.png",
       name: "The Content Studio",
       tagline: "You bring the idea. We make people stop scrolling.",
       description:
@@ -229,8 +230,8 @@ export const pricingSection = {
       ],
     },
     {
+      frameImage: "/frame2.png",
       badge: "MOST VERSATILE",
-      eyebrow: "02 / CONTENT OPERATIONS",
       name: "The Content Engine",
       tagline: "Not just videos. A system that keeps your brand moving.",
       description:
@@ -247,7 +248,7 @@ export const pricingSection = {
       ],
     },
     {
-      eyebrow: "03 / AI SYSTEMS",
+      frameImage: "/frame3.png",
       name: "The Growth Systems Lab",
       tagline: "Less manual work. Faster responses. More opportunities captured.",
       description:
