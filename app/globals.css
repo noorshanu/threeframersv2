@@ -122,8 +122,8 @@
 .flywheel-stage {
   --flywheel-size: min(400px, 96vw);
   --flywheel-ring-size: calc(var(--flywheel-size) * 0.92);
-  /* Tight band: just outside visible ring (~46% radius + sliver) */
-  --flywheel-orbit: calc(var(--flywheel-size) * 0.478);
+  /* Outer arrow tips on ring.png */
+  --flywheel-orbit: calc(var(--flywheel-size) * 0.545);
 
   position: sticky;
   top: 14vh;
@@ -158,6 +158,7 @@
 .flywheel-ring-spin {
   grid-area: 1 / 1;
   z-index: 1;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -179,23 +180,40 @@
   left: 50%;
   top: 50%;
   z-index: 2;
-  max-width: 10rem;
+  width: max-content;
+  max-width: 11rem;
   --node-orbit: var(--flywheel-orbit);
   transform: translate(-50%, -50%) rotate(var(--flywheel-angle))
     translateY(calc(-1 * var(--node-orbit))) rotate(calc(-1 * var(--flywheel-angle)));
+  pointer-events: auto;
 }
 
-/* Bottom labels — extra separation from ring + each other */
-.flywheel-node[data-flywheel-position="4"] {
-  --node-orbit: calc(var(--flywheel-orbit) + 0.4rem);
+.flywheel-node[data-flywheel-position="10"] {
+  --node-orbit: calc(var(--flywheel-orbit) + 0.15rem);
+}
+
+.flywheel-node[data-flywheel-position="3"] {
+  --node-orbit: calc(var(--flywheel-orbit) + 0.35rem);
+}
+
+.flywheel-node[data-flywheel-position="1"] {
+  --node-orbit: calc(var(--flywheel-orbit) + 0.45rem);
 }
 
 .flywheel-node[data-flywheel-position="6"] {
-  --node-orbit: calc(var(--flywheel-orbit) + 0.25rem);
+  --node-orbit: calc(var(--flywheel-orbit) + 0.5rem);
+}
+
+.flywheel-node[data-flywheel-position="4"] {
+  --node-orbit: calc(var(--flywheel-orbit) + 0.2rem);
 }
 
 .flywheel-node[data-flywheel-position="8"] {
   --node-orbit: calc(var(--flywheel-orbit) + 0.35rem);
+}
+
+.flywheel-node[data-flywheel-position="2"] {
+  --node-orbit: calc(var(--flywheel-orbit) + 0.25rem);
 }
 
 .flywheel-node__pill {
@@ -253,7 +271,7 @@
 
   .flywheel-stage {
     --flywheel-size: min(440px, 94vw);
-    --flywheel-orbit: calc(var(--flywheel-size) * 0.448);
+    --flywheel-orbit: calc(var(--flywheel-size) * 0.52);
     top: 18vh;
   }
 

@@ -19,27 +19,6 @@ export function FlywheelVisual({ wrapperRef }: FlywheelVisualProps) {
   return (
     <div ref={wrapperRef} className="flywheel-scroll">
       <div className="flywheel-stage">
-        {platforms.map((platform) => (
-          <div
-            key={platform.id}
-            className="flywheel-node"
-            data-flywheel-position={platform.id}
-            style={
-              {
-                "--flywheel-angle": `${platform.angleDeg}deg`,
-              } as CSSProperties
-            }
-          >
-            <div className="flywheel-node__pill">
-              <FlywheelPlatformIcon
-                icon={platform.icon}
-                className={`flywheel-node__icon flywheel-node__icon--${platform.icon}`}
-              />
-              <span className="flywheel-node__label">{platform.label}</span>
-            </div>
-          </div>
-        ))}
-
         <div className="flywheel-hub">
           <div className="flywheel-hub__logo">
             <Image
@@ -51,7 +30,7 @@ export function FlywheelVisual({ wrapperRef }: FlywheelVisualProps) {
               sizes="80px"
             />
           </div>
-          <div className="flywheel-ring-spin" aria-hidden>
+          <div className="flywheel-ring-spin">
             <img
               src={ringImage}
               alt=""
@@ -59,7 +38,28 @@ export function FlywheelVisual({ wrapperRef }: FlywheelVisualProps) {
               width={600}
               height={600}
               decoding="async"
+              aria-hidden
             />
+            {platforms.map((platform) => (
+              <div
+                key={platform.id}
+                className="flywheel-node"
+                data-flywheel-position={platform.id}
+                style={
+                  {
+                    "--flywheel-angle": `${platform.angleDeg}deg`,
+                  } as CSSProperties
+                }
+              >
+                <div className="flywheel-node__pill">
+                  <FlywheelPlatformIcon
+                    icon={platform.icon}
+                    className={`flywheel-node__icon flywheel-node__icon--${platform.icon}`}
+                  />
+                  <span className="flywheel-node__label">{platform.label}</span>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>

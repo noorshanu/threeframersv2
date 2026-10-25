@@ -91,37 +91,37 @@ export const flywheelPlatforms = [
     id: "3",
     label: "Instagram reels",
     icon: "instagram",
-    angleDeg: 51,
+    angleDeg: 52,
   },
   {
     id: "1",
     label: "Youtube Shorts",
     icon: "youtube",
-    angleDeg: 103,
+    angleDeg: 104,
   },
   {
     id: "6",
     label: "Instagram Carousels",
     icon: "instagram",
-    angleDeg: 122,
+    angleDeg: 156,
   },
   {
     id: "4",
     label: "TikTok Videos",
     icon: "tiktok",
-    angleDeg: 178,
+    angleDeg: 208,
   },
   {
     id: "8",
     label: "LinkedIn Carousels",
     icon: "linkedin",
-    angleDeg: 228,
+    angleDeg: 260,
   },
   {
     id: "2",
     label: "Youtube Long form",
     icon: "youtube",
-    angleDeg: 292,
+    angleDeg: 312,
   },
 ] as const;
 

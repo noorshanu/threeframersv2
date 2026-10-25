@@ -1,7 +1,9 @@
 import Image from "next/image";
 
+import { Button } from "@/components/ui/Button";
 import { CheckIcon } from "@/components/ui/CheckIcon";
 import { SectionHeader } from "@/components/ui/SectionHeader";
+import { CAL_DISCOVERY_URL } from "@/lib/constants";
 import { pricingSection } from "@/lib/content";
 
 export function Pricing() {
@@ -60,6 +62,16 @@ export function Pricing() {
                       </li>
                     ))}
                   </ul>
+
+                  <div className="mt-8 flex justify-center">
+                    <Button
+                      href={CAL_DISCOVERY_URL}
+                      external
+                      className="w-full max-w-xs"
+                    >
+                      Apply
+                    </Button>
+                  </div>
                 </div>
               </div>
             ))}

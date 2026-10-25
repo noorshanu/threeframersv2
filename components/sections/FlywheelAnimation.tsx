@@ -19,6 +19,10 @@ const buildFlywheelTimeline = (
   }
 
   const nodeEls = gsap.utils.toArray<HTMLElement>(".flywheel-node", stageEl);
+  const pillEls = gsap.utils.toArray<HTMLElement>(
+    ".flywheel-node__pill",
+    stageEl
+  );
 
   if (prefersReducedMotion) {
     gsap.set(nodeEls, { opacity: 1 });
@@ -27,6 +31,12 @@ const buildFlywheelTimeline = (
 
   gsap.set(nodeEls, { opacity: 0, willChange: "opacity" });
   gsap.set(ringEl, {
+    rotation: 0,
+    transformOrigin: "50% 50%",
+    force3D: true,
+    willChange: "transform",
+  });
+  gsap.set(pillEls, {
     rotation: 0,
     transformOrigin: "50% 50%",
     force3D: true,
@@ -47,6 +57,17 @@ const buildFlywheelTimeline = (
     ringEl,
     {
       rotation: 360,
+      ease: "none",
+      force3D: true,
+      duration: 1,
+    },
+    0
+  );
+
+  timeline.to(
+    pillEls,
+    {
+      rotation: -360,
       ease: "none",
       force3D: true,
       duration: 1,
