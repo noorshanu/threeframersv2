@@ -15,9 +15,9 @@ export const CDN_BASE =
   "https://cdn.prod.website-files.com/6778043699a2f913f47628dd";
 
 export const ASSETS = {
-  logo: "/logo.jpg",
+  logo: "/logo.png",
   favicon: "/fav.png",
-  webclip: "/fav.png",
+  webclip: "/logo.png",
   heroGradient: `${CDN_BASE}/68ce5f7fbf72d4300ecf5d59_Clip path group (1).avif`,
   reviewsBg: `${CDN_BASE}/68ce5f7fbf72d4300ecf5d59_Clip path group (1).avif`,
 } as const;
